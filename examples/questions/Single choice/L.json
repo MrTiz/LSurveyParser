@@ -1,0 +1,93 @@
+{
+    "234479X1478X17397": {
+        "code": "q23",
+        "text": "Et harum quidem rerum facilis Q23?",
+        "type": "L",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "At",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "vero",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "eos",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "et",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "accusamus",
+                "N": 0,
+                "%": 0
+            },
+            "A6": {
+                "text": "et",
+                "N": 1,
+                "%": 33.33
+            },
+            "A7": {
+                "text": "iusto",
+                "N": 0,
+                "%": 0
+            },
+            "A8": {
+                "text": "odio",
+                "N": 1,
+                "%": 33.33
+            },
+            "A9": {
+                "text": "dignissimos",
+                "N": 0,
+                "%": 0
+            },
+            "A10": {
+                "text": "ducimus",
+                "N": 0,
+                "%": 0
+            },
+            "A11": {
+                "text": "qui",
+                "N": 0,
+                "%": 0
+            },
+            "A12": {
+                "text": "blanditiis",
+                "N": 0,
+                "%": 0
+            },
+            "-oth-": {
+                "text": "Other",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1478X17397other": {
+        "code": "q23[other]",
+        "text": "Et harum quidem rerum facilis Q23? [Other]",
+        "type": "L",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "mjhkhj"
+        ]
+    }
+}

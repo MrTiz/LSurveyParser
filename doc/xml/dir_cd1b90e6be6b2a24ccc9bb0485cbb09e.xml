@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_cd1b90e6be6b2a24ccc9bb0485cbb09e" kind="dir">
+    <compoundname>LSurveyParser/src</compoundname>
+    <innerdir refid="dir_42ee5159cc2dbf8356ea485bd58846ab">LSurveyParser/src/Database</innerdir>
+    <innerdir refid="dir_ddd77e3e9046ac0aa8d156e759c32ff5">LSurveyParser/src/Exceptions</innerdir>
+    <innerdir refid="dir_966991d6cf8a6ba47c5a0af9481b83af">LSurveyParser/src/Parser</innerdir>
+    <innerfile refid="_i_l_survey_parser_8php">ILSurveyParser.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LSurveyParser/src/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+{
+    "234479X1477X17385": {
+        "code": "q14",
+        "text": "Et harum quidem rerum Q14?",
+        "type": "D",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "2020-01-26 00:00:00",
+            "2020-03-01 00:00:00",
+            "2020-05-08 00:00:00"
+        ]
+    }
+}

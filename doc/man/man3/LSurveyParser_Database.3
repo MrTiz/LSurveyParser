@@ -1,0 +1,85 @@
+.TH "Database" 3 "Fri Mar 6 2020" "Version 1.0" "LSurveyParser" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Database
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBquery\fP ($sql, $fetchAll=true, $fetchStyle=PDO::FETCH_ASSOC)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBgetInstance\fP ()"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static getInstance ()\fC [static]\fP"
+Singleton
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Database|null 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBSurveyException\fP\fP 
+.RE
+.PP
+
+.SS "query ( $sql,  $fetchAll = \fCtrue\fP,  $fetchStyle = \fCPDO::FETCH_ASSOC\fP)"
+Executes an SQL statement and fetch the result set\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$sql\fP SQL query to execute 
+.br
+\fI$fetchAll\fP Fetch all the results or only the first ones? 
+.br
+\fI$fetchStyle\fP How the rows will be returned
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array|mixed 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIPDOException\fP 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LSurveyParser from the source code\&.

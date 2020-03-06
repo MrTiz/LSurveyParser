@@ -1,0 +1,122 @@
+{
+    "234479X1476X17366SQ001": {
+        "code": "q7[SQ001]",
+        "text": "Sed ut perspiciatis unde omnis Q7? [iste]",
+        "type": "A",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "1": {
+                "text": "1",
+                "N": 0,
+                "%": 0
+            },
+            "2": {
+                "text": "2",
+                "N": 1,
+                "%": 33.33
+            },
+            "3": {
+                "text": "3",
+                "N": 1,
+                "%": 33.33
+            },
+            "4": {
+                "text": "4",
+                "N": 0,
+                "%": 0
+            },
+            "5": {
+                "text": "5",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17366SQ002": {
+        "code": "q7[SQ002]",
+        "text": "Sed ut perspiciatis unde omnis Q7? [natus]",
+        "type": "A",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "1": {
+                "text": "1",
+                "N": 0,
+                "%": 0
+            },
+            "2": {
+                "text": "2",
+                "N": 0,
+                "%": 0
+            },
+            "3": {
+                "text": "3",
+                "N": 1,
+                "%": 33.33
+            },
+            "4": {
+                "text": "4",
+                "N": 1,
+                "%": 33.33
+            },
+            "5": {
+                "text": "5",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17366SQ003": {
+        "code": "q7[SQ003]",
+        "text": "Sed ut perspiciatis unde omnis Q7? [error]",
+        "type": "A",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "1": {
+                "text": "1",
+                "N": 1,
+                "%": 33.33
+            },
+            "2": {
+                "text": "2",
+                "N": 0,
+                "%": 0
+            },
+            "3": {
+                "text": "3",
+                "N": 1,
+                "%": 33.33
+            },
+            "4": {
+                "text": "4",
+                "N": 1,
+                "%": 33.33
+            },
+            "5": {
+                "text": "5",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

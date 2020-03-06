@@ -1,0 +1,93 @@
+{
+    "234479X1478X17396": {
+        "code": "q22",
+        "text": "Nam libero tempore, cum soluta Q22?",
+        "type": "!",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "At",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "vero",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "eos",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "et",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "accusamus",
+                "N": 1,
+                "%": 33.33
+            },
+            "A6": {
+                "text": "et",
+                "N": 0,
+                "%": 0
+            },
+            "A7": {
+                "text": "iusto",
+                "N": 0,
+                "%": 0
+            },
+            "A8": {
+                "text": "odio",
+                "N": 0,
+                "%": 0
+            },
+            "A9": {
+                "text": "dignissimos",
+                "N": 1,
+                "%": 33.33
+            },
+            "A10": {
+                "text": "ducimus",
+                "N": 0,
+                "%": 0
+            },
+            "A11": {
+                "text": "qui",
+                "N": 0,
+                "%": 0
+            },
+            "A12": {
+                "text": "blanditiis",
+                "N": 0,
+                "%": 0
+            },
+            "-oth-": {
+                "text": "Other",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1478X17396other": {
+        "code": "q22[other]",
+        "text": "Nam libero tempore, cum soluta Q22? [Other]",
+        "type": "!",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "ciao"
+        ]
+    }
+}

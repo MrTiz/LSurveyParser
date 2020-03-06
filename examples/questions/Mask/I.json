@@ -1,0 +1,27 @@
+{
+    "234479X1477X17382": {
+        "code": "q11",
+        "text": "Itaque earum rerum hic Q11?",
+        "type": "I",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "en": {
+                "text": "en",
+                "N": 2,
+                "%": 66.67
+            },
+            "it": {
+                "text": "it",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_parser" kind="namespace" language="PHP">
+    <compoundname>Parser</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="namespace_parser" kindref="compound">Parser</ref></para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="LSurveyParser/src/Parser/Parser.php" line="30" column="1"/>
+  </compounddef>
+</doxygen>

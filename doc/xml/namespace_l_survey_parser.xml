@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_l_survey_parser" kind="namespace" language="PHP">
+    <compoundname>LSurveyParser</compoundname>
+    <innerclass refid="class_l_survey_parser_1_1_database" prot="public">LSurveyParser::Database</innerclass>
+    <innerclass refid="interface_l_survey_parser_1_1_i_l_survey_parser" prot="public">LSurveyParser::ILSurveyParser</innerclass>
+    <innerclass refid="class_l_survey_parser_1_1_l_survey_parser_exception" prot="public">LSurveyParser::LSurveyParserException</innerclass>
+    <innerclass refid="class_l_survey_parser_1_1_parser" prot="public">LSurveyParser::Parser</innerclass>
+    <innerclass refid="class_l_survey_parser_1_1_survey_exception" prot="public">LSurveyParser::SurveyException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>@Copyright (c) 2020 Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink>.</para>
+<para>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para>
+<para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para>
+<para>You should have received a copy of the GNU General Public License along with this program. if not, see <ulink url="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</ulink>.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0</para>
+</simplesect>
+Class <ref refid="class_l_survey_parser_1_1_database" kindref="compound">Database</ref></para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+Class <ref refid="class_l_survey_parser_1_1_l_survey_parser_exception" kindref="compound">LSurveyParserException</ref></para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+Class <ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+Interface <ref refid="interface_l_survey_parser_1_1_i_l_survey_parser" kindref="compound">ILSurveyParser</ref></para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="LSurveyParser/src/Database/Database.php" line="22" column="10"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,92 @@
+{
+    "234479X1476X17374SQ001": {
+        "code": "q9[SQ001]",
+        "text": "Vel illum qui dolorem Q9? [magnam aliquam]",
+        "type": "H",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "eum fugiat",
+                "N": 2,
+                "%": 66.67
+            },
+            "A2": {
+                "text": "quo voluptas",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "nulla pariatur",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17374SQ002": {
+        "code": "q9[SQ002]",
+        "text": "Vel illum qui dolorem Q9? [quaerat voluptatem]",
+        "type": "H",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "eum fugiat",
+                "N": 1,
+                "%": 33.33
+            },
+            "A2": {
+                "text": "quo voluptas",
+                "N": 1,
+                "%": 33.33
+            },
+            "A3": {
+                "text": "nulla pariatur",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17374SQ003": {
+        "code": "q9[SQ003]",
+        "text": "Vel illum qui dolorem Q9? [ad minima veniam]",
+        "type": "H",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "eum fugiat",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "quo voluptas",
+                "N": 1,
+                "%": 33.33
+            },
+            "A3": {
+                "text": "nulla pariatur",
+                "N": 2,
+                "%": 66.67
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "234479X1477X17389": {
+        "code": "q18",
+        "text": "Excepteur sint occaecat Q18?",
+        "type": "N",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": [
+            "55555.0000000000",
+            "55555.0000000000",
+            "123.0000000000"
+        ]
+    }
+}

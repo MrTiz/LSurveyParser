@@ -1,0 +1,32 @@
+{
+    "234479X1477X17383": {
+        "code": "q12",
+        "text": "Tenetur a sapiente delectus Q12?",
+        "type": "|",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "0": {
+                "text": "[{ \"title\":\"immagine\",\"comment\":\"foto\",\"size\":\"394.212890625\",\"name\":\"0Dv0rhwh_1920x1200.jpg\",\"filename\":\"fu_rk7aynx2gi37fic\",\"ext\":\"jpg\" }]",
+                "N": 1,
+                "%": 33.33
+            },
+            "1": {
+                "text": "[{ \"title\":\"sea\",\"comment\":\"beautiful sea\",\"size\":\"962.8955078125\",\"name\":\"0H7jX2EZ_1920x1200.jpg\",\"filename\":\"fu_uw9hdn45f2jp9bq\",\"ext\":\"jpg\" }]",
+                "N": 1,
+                "%": 33.33
+            },
+            "2": {
+                "text": "[{ \"title\":\"autumn\",\"comment\":\"beautiful autumn\",\"size\":\"573.89453125\",\"name\":\"5LsvB5kF_1920x1200.jpg\",\"filename\":\"fu_pc3xstr8fqu379v\",\"ext\":\"jpg\" }]",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

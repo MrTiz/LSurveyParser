@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="class_l_survey_parser_1_1_database" kind="class"><name>LSurveyParser::Database</name>
+    <member refid="class_l_survey_parser_1_1_database_1ad9d7ce33ebb142b70e58b68052ca0ea8" kind="variable"><name>$instance</name></member>
+    <member refid="class_l_survey_parser_1_1_database_1a0d9c79b9b86b3f5891c6d3892f12c6a0" kind="variable"><name>$connection</name></member>
+    <member refid="class_l_survey_parser_1_1_database_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_l_survey_parser_1_1_database_1a9025a2c7cd98101f57f02dcbebfe21f7" kind="function"><name>checkTablePrefix</name></member>
+    <member refid="class_l_survey_parser_1_1_database_1ac93fbec81f07e5d15f80db907e63dc10" kind="function"><name>getInstance</name></member>
+    <member refid="class_l_survey_parser_1_1_database_1a577322cc5fbe08f08fa107e6d8a6b62c" kind="function"><name>query</name></member>
+  </compound>
+  <compound refid="interface_l_survey_parser_1_1_i_l_survey_parser" kind="interface"><name>LSurveyParser::ILSurveyParser</name>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1afb76b3a836077895de57218561df3a2a" kind="function"><name>getOnlyQuestions</name></member>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a4241d6cea6e848010fab6c6230ddd854" kind="function"><name>parseQuestionsByIDs</name></member>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a0eff5c1e0fb3363949f1c30fe06b8059" kind="function"><name>parseQuestionsByTokens</name></member>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a56ae3a3d2128212a1af597f508f1a1df" kind="function"><name>parseQuestionsByDates</name></member>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1af68017d37ebb254cd84c881d8c941014" kind="function"><name>setCutoff</name></member>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1acd65c5111df5334454242bcb93dd9a62" kind="function"><name>setDateCol</name></member>
+    <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e" kind="function"><name>setStripTags</name></member>
+  </compound>
+  <compound refid="class_l_survey_parser_1_1_l_survey_parser_exception" kind="class"><name>LSurveyParser::LSurveyParserException</name>
+    <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1abf17cb2dba2ed17cb28aa5f37deb5293" kind="variable"><name>$message</name></member>
+    <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1a7949acdaecc70b9f035c12a7069db132" kind="variable"><name>$code</name></member>
+    <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1a0c373deae7212b3fabcbbf3ce9a5794d" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_l_survey_parser_1_1_parser" kind="class"><name>LSurveyParser::Parser</name>
+    <member refid="class_l_survey_parser_1_1_parser_1a3b4e4b29ac1d6699dd65f8f0d6fa4133" kind="variable"><name>$sid</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a5a7d2047220cc4de4a5d047d88cfbc03" kind="variable"><name>$cutoff</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a7714b111b644017933931ec69a154102" kind="variable"><name>$lang</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a6b6ac8423ccb37a59350c6f9a50930d1" kind="variable"><name>$qToExcl</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a1e947a529bea199f9de0e86d73dbaec8" kind="variable"><name>$dateCol</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1af7a0f4a960ae2219683c6a9a6667028d" kind="variable"><name>$stripTags</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a1fa3127fc82f96b1436d871ef02be319" kind="variable"><name>$db</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a68f39949e76b64662a06cb56579d91c3" kind="variable"><name>$dbName</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a061ded67e1c12c266312830d080f46a7" kind="variable"><name>$tablePrefix</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a327b5ad28b08c3e596c3935eac26ad5f" kind="variable"><name>$IDs</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ab9df3f313e5634dc7884d44fbc213ea4" kind="variable"><name>$implodedIDs</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a31f8faa271b210c6e1882434f6290c8e" kind="variable"><name>$qList</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aab572fa0daf4f533e20d4cd1be98e0ba" kind="variable"><name>$questionsOnly</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a73004ce9cd673c1bfafd1dc351134797" kind="variable"><name>$output</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a241b818f48030b628685b2e5119c5624" kind="variable"><name>$total</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1afb76b3a836077895de57218561df3a2a" kind="function"><name>getOnlyQuestions</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a4241d6cea6e848010fab6c6230ddd854" kind="function"><name>parseQuestionsByIDs</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a0eff5c1e0fb3363949f1c30fe06b8059" kind="function"><name>parseQuestionsByTokens</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a56ae3a3d2128212a1af597f508f1a1df" kind="function"><name>parseQuestionsByDates</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1af68017d37ebb254cd84c881d8c941014" kind="function"><name>setCutoff</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1acd65c5111df5334454242bcb93dd9a62" kind="function"><name>setDateCol</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e" kind="function"><name>setStripTags</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a3606a60e39b5f8c12fca27a51d1e5eeb" kind="function"><name>parseQuestions</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ac43c2a3dafc280e4fe60b92bc7765bae" kind="function"><name>parseFQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aa6996182bdc37b497b4a7b15e577a36e" kind="function"><name>parseAQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a11c33700323b841e5b5ffa213ecb0827" kind="function"><name>parseBQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ade43f00fdaeea16843bbe193839bbe68" kind="function"><name>parseCQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1abeadef9d4cce395489c5bef775d86bc7" kind="function"><name>parseEQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aa1fb45792dd3d3a4f73f70e1d935f47f" kind="function"><name>parseHQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aae1d42a94d14918ab26e2523519db4b7" kind="function"><name>parse1Question</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a342f352f3e60e3655cc96c8448329091" kind="function"><name>parseColonQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1abdd4649b27a1bb2c337943c1af983035" kind="function"><name>parseSemicolonQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ab8491512170301d3c40b6b016f0e7724" kind="function"><name>parseDQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a5fb459a4c7436b1e3f0315fde3c42e21" kind="function"><name>parsePipeQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a8dcf8c9dc3f2c1fe85fc42d292e788d1" kind="function"><name>parseGQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aabba1c221083155110e14cf69eb1fd41" kind="function"><name>parseIQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a03b3970e4abb7255df363398909c6584" kind="function"><name>parseNQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a5f2c8a3e57df8e8ba3fbdc640d3f73b3" kind="function"><name>parseKQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a0e6a8d5c01d126fc7df67ba8ccc690ca" kind="function"><name>parseRQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a6b1a1f5e171bfc3ed391a907645b2ab1" kind="function"><name>parseXQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ad694d9653a3a70a530aec43e86e621fe" kind="function"><name>parseYQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a0ce1e104bc6e083e20aaab3ff8c27339" kind="function"><name>parseStarQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aad6a28ae859a797b854276a534c452c9" kind="function"><name>parseMQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a22cf7b73b57e08a5f0fff00f14611aa3" kind="function"><name>parsePQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1afb680fcf761b06eb039d37e5b8f538ea" kind="function"><name>parse5Question</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a6693e80e85b393574c05a3391529d6c8" kind="function"><name>parseDropdownQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a4d5ef987199543820d49b59316a474fa" kind="function"><name>parseLQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a505c7e1b3b2b7180dca7437a0d950d10" kind="function"><name>parseOQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1adb55f68b3558a0f66d4b2b9f417256d8" kind="function"><name>parseSQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a8d5ebb25e9fc977c8d97be7d3cdc7aa9" kind="function"><name>parseTQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1af5b0587770c5a616cf7ced27a412ed09" kind="function"><name>parseUQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a1257443341c7a588fa7e99ae6533e6c8" kind="function"><name>parseQQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a85eb84b36ed062a3d5b7d2c07e3edcb7" kind="function"><name>parseUnknownQuestion</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a8fc2312babff9e9e69361fd520200c8b" kind="function"><name>moveTotalToEnd</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a43e9c4b19389cc6543c20e6e16a56b7d" kind="function"><name>setPercentage</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a5da12de1d87751daeb91744e8782feb8" kind="function"><name>dropByCutoff</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a4fc4a71bbe12ac8f7b9f2ccd423a1b2f" kind="function"><name>checkValidIDs</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a000e0bd45e2e07ed4462f1e9e1667829" kind="function"><name>checkValidTokens</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a5fb770beaabbb2be41797b62cc447abe" kind="function"><name>checkValidDate</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1aa7dd5f16bb286e4b8ad6205f8449f80c" kind="function"><name>getInfoQuestions</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ad1aeb30bc6b3650e3c1d41517527ef11" kind="function"><name>getSubQuestions</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ae9dadfd36f0ddce2310fc15113973cb8" kind="function"><name>getFreeTextAnswers</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ad1bbd9019b9d7d5a606bbd7abc026636" kind="function"><name>getCountAnswers</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a8eec693ab20e9d66b19a540f9cae7d7b" kind="function"><name>getQuestionsAttributes</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a8535de506a9648cd23fdefa4d11b9f7a" kind="function"><name>getInfoByScaleId</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ae49b668e6ad14aa1b573059e868aa5bd" kind="function"><name>getCountSGQA</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ae9fa1a599b7ad61f33a35256ef968fe7" kind="function"><name>getAnswersCodes</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a8579bf35c50d2422305ca5bcb04557ee" kind="function"><name>getUploadedFiles</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1afd8f290775a9845e565b9b6caa177818" kind="function"><name>getAvailableLanguages</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a86d261451a43abd441bed48ab9203bb4" kind="function"><name>getDefaultLanguage</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a1a7893635852b319be4a31f7ffa3b751" kind="function"><name>checkAnonymousSurvey</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1af1884e3f6b3b099106cc15b9ea898e3a" kind="function"><name>checkDatestampSurvey</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ae0f6159512b97f6a3c295210e64dd5f8" kind="function"><name>getIDsByTokens</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a029f3ee2f4c62b0ffa5fca2311067315" kind="function"><name>getIDsByDate</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1ae6e6e17f19346ffca936c9eb67223a13" kind="function"><name>checkValidSid</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a9f0cc453a0a770fd0cf85121bff7ad5c" kind="function"><name>checkValidLanguage</name></member>
+    <member refid="class_l_survey_parser_1_1_parser_1a5328e4d6336e565d9f1deed168d64359" kind="function"><name>checkValidQlist</name></member>
+  </compound>
+  <compound refid="class_l_survey_parser_1_1_survey_exception" kind="class"><name>LSurveyParser::SurveyException</name>
+  </compound>
+  <compound refid="namespace_date_time" kind="namespace"><name>DateTime</name>
+  </compound>
+  <compound refid="namespace_exception" kind="namespace"><name>Exception</name>
+  </compound>
+  <compound refid="namespace_l_survey_parser" kind="namespace"><name>LSurveyParser</name>
+  </compound>
+  <compound refid="namespace_parser" kind="namespace"><name>Parser</name>
+  </compound>
+  <compound refid="namespace_p_d_o" kind="namespace"><name>PDO</name>
+  </compound>
+  <compound refid="namespace_p_d_o_exception" kind="namespace"><name>PDOException</name>
+  </compound>
+  <compound refid="_database_8php" kind="file"><name>Database.php</name>
+  </compound>
+  <compound refid="_l_survey_parser_exception_8php" kind="file"><name>LSurveyParserException.php</name>
+  </compound>
+  <compound refid="_survey_exception_8php" kind="file"><name>SurveyException.php</name>
+  </compound>
+  <compound refid="_i_l_survey_parser_8php" kind="file"><name>ILSurveyParser.php</name>
+  </compound>
+  <compound refid="_parser_8php" kind="file"><name>Parser.php</name>
+  </compound>
+  <compound refid="dir_42ee5159cc2dbf8356ea485bd58846ab" kind="dir"><name>LSurveyParser/src/Database</name>
+  </compound>
+  <compound refid="dir_ddd77e3e9046ac0aa8d156e759c32ff5" kind="dir"><name>LSurveyParser/src/Exceptions</name>
+  </compound>
+  <compound refid="dir_8a3cd0a2bcd88a503318ed9f84208684" kind="dir"><name>LSurveyParser</name>
+  </compound>
+  <compound refid="dir_966991d6cf8a6ba47c5a0af9481b83af" kind="dir"><name>LSurveyParser/src/Parser</name>
+  </compound>
+  <compound refid="dir_cd1b90e6be6b2a24ccc9bb0485cbb09e" kind="dir"><name>LSurveyParser/src</name>
+  </compound>
+</doxygenindex>

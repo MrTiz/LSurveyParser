@@ -1,0 +1,2410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_l_survey_parser_1_1_parser" kind="class" language="PHP" prot="public">
+    <compoundname>LSurveyParser::Parser</compoundname>
+    <basecompoundref refid="interface_l_survey_parser_1_1_i_l_survey_parser" prot="public" virt="non-virtual">ILSurveyParser</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a3b4e4b29ac1d6699dd65f8f0d6fa4133" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$sid</definition>
+        <argsstring></argsstring>
+        <name>$sid</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="40" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a5a7d2047220cc4de4a5d047d88cfbc03" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$cutoff</definition>
+        <argsstring></argsstring>
+        <name>$cutoff</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="42" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a7714b111b644017933931ec69a154102" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$lang</definition>
+        <argsstring></argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;en&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="44" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a6b6ac8423ccb37a59350c6f9a50930d1" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$qToExcl</definition>
+        <argsstring></argsstring>
+        <name>$qToExcl</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="46" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a1e947a529bea199f9de0e86d73dbaec8" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$dateCol</definition>
+        <argsstring></argsstring>
+        <name>$dateCol</name>
+        <initializer>= &apos;submitdate&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="48" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1af7a0f4a960ae2219683c6a9a6667028d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$stripTags</definition>
+        <argsstring></argsstring>
+        <name>$stripTags</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="50" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="53" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a68f39949e76b64662a06cb56579d91c3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$dbName</definition>
+        <argsstring></argsstring>
+        <name>$dbName</name>
+        <initializer>= DB_NAME</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="55" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a061ded67e1c12c266312830d080f46a7" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$tablePrefix</definition>
+        <argsstring></argsstring>
+        <name>$tablePrefix</name>
+        <initializer>= TABLE_PREFIX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="57" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a327b5ad28b08c3e596c3935eac26ad5f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$IDs</definition>
+        <argsstring></argsstring>
+        <name>$IDs</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="59" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1ab9df3f313e5634dc7884d44fbc213ea4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$implodedIDs</definition>
+        <argsstring></argsstring>
+        <name>$implodedIDs</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="61" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a31f8faa271b210c6e1882434f6290c8e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$qList</definition>
+        <argsstring></argsstring>
+        <name>$qList</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="63" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1aab572fa0daf4f533e20d4cd1be98e0ba" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$questionsOnly</definition>
+        <argsstring></argsstring>
+        <name>$questionsOnly</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="65" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a73004ce9cd673c1bfafd1dc351134797" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$output</definition>
+        <argsstring></argsstring>
+        <name>$output</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="68" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_parser_1a241b818f48030b628685b2e5119c5624" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$total</definition>
+        <argsstring></argsstring>
+        <name>$total</name>
+        <initializer>= [
+        &apos;text&apos; =&gt; &apos;Total&apos;,
+        &apos;N&apos;    =&gt; 0,
+        &apos;%&apos;    =&gt; 100
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="71" column="13" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_l_survey_parser_1_1_parser" kindref="compound">Parser</ref> constructor.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>PDOException|SurveyException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="88" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1afb76b3a836077895de57218561df3a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOnlyQuestions</definition>
+        <argsstring>($sid, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>getOnlyQuestions</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1afb76b3a836077895de57218561df3a2a">getOnlyQuestions</reimplements>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the questions only, excluding the answers.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="110" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="110" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a4241d6cea6e848010fab6c6230ddd854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQuestionsByIDs</definition>
+        <argsstring>($sid, $IDs, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>parseQuestionsByIDs</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a4241d6cea6e848010fab6c6230ddd854">parseQuestionsByIDs</reimplements>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$IDs</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the survey responses using the IDs.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$IDs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of IDs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="155" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="155" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a0eff5c1e0fb3363949f1c30fe06b8059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQuestionsByTokens</definition>
+        <argsstring>($sid, $tokens, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>parseQuestionsByTokens</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a0eff5c1e0fb3363949f1c30fe06b8059">parseQuestionsByTokens</reimplements>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$tokens</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the survey responses using the tokens.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$tokens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of tokens </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="204" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="204" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a56ae3a3d2128212a1af597f508f1a1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQuestionsByDates</definition>
+        <argsstring>($sid, $from, $to, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>parseQuestionsByDates</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a56ae3a3d2128212a1af597f508f1a1df">parseQuestionsByDates</reimplements>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <param>
+          <declname>$to</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the survey responses using the dates.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start date </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End date </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="258" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="258" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1af68017d37ebb254cd84c881d8c941014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCutoff</definition>
+        <argsstring>($cutoff=0)</argsstring>
+        <name>setCutoff</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1af68017d37ebb254cd84c881d8c941014">setCutoff</reimplements>
+        <param>
+          <declname>$cutoff</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the cutoff.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cutoff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="307" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="307" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1acd65c5111df5334454242bcb93dd9a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDateCol</definition>
+        <argsstring>($dateCol=&apos;submitdate&apos;)</argsstring>
+        <name>setDateCol</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1acd65c5111df5334454242bcb93dd9a62">setDateCol</reimplements>
+        <param>
+          <declname>$dateCol</declname>
+          <defval>&apos;submitdate&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set column name that should be used to get response IDs using dates.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$dateCol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Column name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="323" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="323" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setStripTags</definition>
+        <argsstring>($stripTags=true)</argsstring>
+        <name>setStripTags</name>
+        <reimplements refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e">setStripTags</reimplements>
+        <param>
+          <declname>$stripTags</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strip the HTML tags from the questions and answers texts.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$stripTags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="341" column="21" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="341" bodyend="344"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a3606a60e39b5f8c12fca27a51d1e5eeb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>array The output returned by the parseQuestions</definition>
+        <argsstring>()</argsstring>
+        <name>parseQuestions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse all types of known questions.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="359" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="359" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ac43c2a3dafc280e4fe60b92bc7765bae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseFQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseFQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The following functions manipulate the array &apos;output&apos; adding information such as: question code, question text, question type, question mandatory, type of answers (only numbers or not), visibility of the question and all available responses. ARRAYS (from <ulink url="https://manual.limesurvey.org/Question_types#Arrays">https://manual.limesurvey.org/Question_types#Arrays</ulink>)</para>
+<para>The Array question type further extends the List question type. Using this question type, a matrix can be displayed where the left column is represented by a subquestion, while each row is represented by the same set of answer options. The text of the question can be either a specific question or a description.</para>
+<para>In terms of output there is no difference in how responses are stored compared to List (Radio) question type. The given answer is stored in a separate column in the result table for both question types.</para>
+<para>The most flexible array types are Array, Array (Text) and Array (Numbers)&apos;. However, LimeSurvey also supports a number of array types which have predefined answer options (e.g., Array 5 point choice). This function parses the &apos;F&apos; type questions aka &apos;Array&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array">https://manual.limesurvey.org/Question_types#Array</ulink>) An array allows you to create a set of subquestions. Each of them uses the same set of answer options.</para>
+<para>To see an output example for this type of questions you can see &apos;F.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="567" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="567" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1aa6996182bdc37b497b4a7b15e577a36e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseAQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseAQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;A&apos; type questions aka &apos;Array (5 point choice)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.285_point_choice.29">https://manual.limesurvey.org/Question_types#Array_.285_point_choice.29</ulink>) It is an array type that is prefilled with answer choices. An 1 to 5 scale is used.</para>
+<para>To see an output example for this type of questions you can see &apos;A.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="648" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="648" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a11c33700323b841e5b5ffa213ecb0827" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseBQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseBQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;B&apos; type questions aka &apos;Array (10 point choice)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.2810_point_choice.29">https://manual.limesurvey.org/Question_types#Array_.2810_point_choice.29</ulink>) It is an array question type that is prefilled with answer choices on a 1 to 10 scale.</para>
+<para>To see an output example for this type of questions you can see &apos;B.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="725" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="725" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ade43f00fdaeea16843bbe193839bbe68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseCQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseCQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;C&apos; type questions aka &apos;Array (Yes/No/Uncertain)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Yes.2FNo.2FUncertain.29">https://manual.limesurvey.org/Question_types#Array_.28Yes.2FNo.2FUncertain.29</ulink>) It is an array question type that is prefilled with the following answer choices: &apos;Yes&apos;, &apos;No&apos;, and &apos;Uncertain&apos;.</para>
+<para>To see an output example for this type of questions you can see &apos;C.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="802" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="802" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1abeadef9d4cce395489c5bef775d86bc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseEQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseEQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;E&apos; type questions aka &apos;Array (Increase/Same/Decrease)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Increase.2FSame.2FDecrease.29">https://manual.limesurvey.org/Question_types#Array_.28Increase.2FSame.2FDecrease.29</ulink>) It is an array type that is prefilled with the following answer choices: &apos;Increase&apos;, &apos;Same&apos;, and &apos;Decrease&apos;.</para>
+<para>To see an output example for this type of questions you can see &apos;E.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="889" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="889" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1aa1fb45792dd3d3a4f73f70e1d935f47f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseHQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseHQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;H&apos; type questions aka &apos;Array by column&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_by_column">https://manual.limesurvey.org/Question_types#Array_by_column</ulink>) This question type is the same as an array, except the subquestion and answer axes are swapped.</para>
+<para>To see an output example for this type of questions you can see &apos;H.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="976" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="976" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1aae1d42a94d14918ab26e2523519db4b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse1Question</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parse1Question</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;1&apos; type questions aka &apos;Array dual scale&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_dual_scale">https://manual.limesurvey.org/Question_types#Array_dual_scale</ulink>) This question type provides two scales of answer options for each subquestion.</para>
+<para>To see an output example for this type of questions you can see &apos;1.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1057" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1057" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a342f352f3e60e3655cc96c8448329091" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseColonQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseColonQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;:&apos; type questions aka &apos;Array (Numbers)&apos;.</para>
+<para>To see an output example for this type of questions you can see &apos;Colon.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Numbers.29">https://manual.limesurvey.org/Question_types#Array_.28Numbers.29</ulink>) This question types allows survey administrators to a create large arrays with numbered dropdown boxes with a set of subquestions on the &apos;y-axis&apos;, and another set of subquestions on the &apos;x-axis&apos;.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1161" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1161" bodyend="1230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1abdd4649b27a1bb2c337943c1af983035" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseSemicolonQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseSemicolonQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;;&apos; type questions aka &apos;Array (Texts)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Texts.29">https://manual.limesurvey.org/Question_types#Array_.28Texts.29</ulink>) The Array (Text) question type allows for an array of text boxes with a set of subquestions as the &apos;y-axis&apos;, and another set of subquestions as the &apos;x-axis&apos;.</para>
+<para>To see an output example for this type of questions you can see &apos;Semicolon.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1255" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1255" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ab8491512170301d3c40b6b016f0e7724" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseDQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseDQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MASK QUESTIONS (from <ulink url="https://manual.limesurvey.org/Question_types#Mask_questions">https://manual.limesurvey.org/Question_types#Mask_questions</ulink>)</para>
+<para>Due to a lack of better word we define all questions where the input of answers is predefined as &apos;mask questions&apos;. This function parses the &apos;D&apos; type questions aka &apos;Date/Time&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Date">https://manual.limesurvey.org/Question_types#Date</ulink>) This question type can be used to ask for a certain date, time or a combination of both date and time. The values can be selected by the participants either from a popup calendar or from dropdown boxes.</para>
+<para>To see an output example for this type of questions you can see &apos;D.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1340" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1340" bodyend="1361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a5fb459a4c7436b1e3f0315fde3c42e21" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parsePipeQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parsePipeQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;|&apos; type questions aka &apos;File upload&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#File_upload">https://manual.limesurvey.org/Question_types#File_upload</ulink>) The file upload question type can be used to collect file(s) from a user in response to a question.</para>
+<para>NOTE: The &apos;SGQ_filecount&apos; column is used as a counter for the uploaded files.</para>
+<para>To see an output example for this type of questions you can see &apos;Pipe.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1387" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1387" bodyend="1426"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a8dcf8c9dc3f2c1fe85fc42d292e788d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseGQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseGQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;G&apos; type questions aka &apos;Gender&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Gender">https://manual.limesurvey.org/Question_types#Gender</ulink>) This question type collects gender information (&apos;Male&apos; or &apos;Female&apos;) from the respondents.</para>
+<para>To see an output example for this type of questions you can see &apos;G.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1450" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1450" bodyend="1495"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1aabba1c221083155110e14cf69eb1fd41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseIQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseIQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;I&apos; type questions aka &apos;Language switch&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Language_switch">https://manual.limesurvey.org/Question_types#Language_switch</ulink>) This question type allows the user to change the language of the survey. Users can choose from a dropdown list, the language in which they wish to have the survey questions displayed. The dropdown list includes the base language (which is selected when the survey is created for the first time) and the additional ones.</para>
+<para>To see an output example for this type of questions you can see &apos;I.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1522" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1522" bodyend="1572"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a03b3970e4abb7255df363398909c6584" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseNQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseNQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;N&apos; type questions aka &apos;Numerical input&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Numerical_input">https://manual.limesurvey.org/Question_types#Numerical_input</ulink>) This question types asks the survey participant to enter a single number.</para>
+<para>To see an output example for this type of questions you can see &apos;N.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1596" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1596" bodyend="1617"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a5f2c8a3e57df8e8ba3fbdc640d3f73b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseKQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseKQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;K&apos; type questions aka &apos;Multiple numerical input&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_numerical_input">https://manual.limesurvey.org/Question_types#Multiple_numerical_input</ulink>) This question type is a variation of the &apos;Numerical input&apos; question type. It allows multiple text boxes to be created, each of them allowing the survey respondents to enter only numbers. Each text box corresponds to an subquestion, the subquestion text being the label for the input.</para>
+<para>To see an output example for this type of questions you can see &apos;K.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1643" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1643" bodyend="1676"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a0e6a8d5c01d126fc7df67ba8ccc690ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseRQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseRQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;R&apos; type questions aka &apos;Ranking&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Ranking">https://manual.limesurvey.org/Question_types#Ranking</ulink>) This question type allows you to present your survey participants a list of possible answers/options, which they may then rank according to their preferences.</para>
+<para>To see an output example for this type of questions you can see &apos;R.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1701" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1701" bodyend="1754"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a6b1a1f5e171bfc3ed391a907645b2ab1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseXQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseXQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;X&apos; type questions aka &apos;Text display&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Text_display">https://manual.limesurvey.org/Question_types#Text_display</ulink>) This question type does not collect any input from the respondent. It just simply displays text. It can be used to provide further instructions or a design break in the survey.</para>
+<para>To see an output example for this type of questions you can see &apos;X.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1779" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1779" bodyend="1793"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ad694d9653a3a70a530aec43e86e621fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseYQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseYQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;Y&apos; type questions aka &apos;Yes/No&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Yes.2FNo">https://manual.limesurvey.org/Question_types#Yes.2FNo</ulink>) Survey administrators can collect &apos;Yes&apos; or &apos;No&apos; responses from the respondents with the help of this question type.</para>
+<para>To see an output example for this type of questions you can see &apos;Y.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1818" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1818" bodyend="1863"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a0ce1e104bc6e083e20aaab3ff8c27339" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseStarQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseStarQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;*&apos; type questions aka &apos;Equation&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Equation">https://manual.limesurvey.org/Question_types#Equation</ulink>) This question type lets the author create an equation (e.g., a calculation or tailored report) and save it in a database variable. Equations can use any syntax supported by Expression Manager (<ulink url="https://manual.limesurvey.org/Expression_Manager">https://manual.limesurvey.org/Expression_Manager</ulink>).</para>
+<para>To see an output example for this type of questions you can see &apos;Star.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1889" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1889" bodyend="1910"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1aad6a28ae859a797b854276a534c452c9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseMQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseMQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MULTIPLE CHOICE QUESTIONS (from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_choice_questions">https://manual.limesurvey.org/Question_types#Multiple_choice_questions</ulink>)</para>
+<para>Sometimes you want the participan to mark more than one answer option in the same question; this is achieved using checkboxes. This function parses the &apos;M&apos; type questions aka &apos;Multiple choice&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_choice">https://manual.limesurvey.org/Question_types#Multiple_choice</ulink>) This question type can collect input of multiple selections through checkboxes.</para>
+<para>NOTE: LimeSurvey by default creates as many columns as there are sub-questions. This function &apos;compresses&apos; all sub-questions into one question.</para>
+<para>To see an output example for this type of questions you can see &apos;M.json&apos; file inside &apos;examples/questions/Multiple choice&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="1946" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="1946" bodyend="2018"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a22cf7b73b57e08a5f0fff00f14611aa3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parsePQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parsePQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;P&apos; type questions aka &apos;Multiple choice with comments&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_choice_with_comments">https://manual.limesurvey.org/Question_types#Multiple_choice_with_comments</ulink>) This question type can collect input of multiple selections through checkboxes, while allowing the user to provide additional comments.</para>
+<para>NOTE: LimeSurvey by default creates as many columns as there are sub-questions. This function &apos;compresses&apos; all sub-questions into one question, for columns that don&apos;t contain comments (&apos;{SGQA}comment&apos;).</para>
+<para>To see an output example for this type of questions you can see &apos;P.json&apos; file inside &apos;examples/questions/Multiple choice&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2047" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2047" bodyend="2143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1afb680fcf761b06eb039d37e5b8f538ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse5Question</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parse5Question</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SINGLE CHOICE QUESTIONS (from <ulink url="https://manual.limesurvey.org/Question_types#Single_choice_questions">https://manual.limesurvey.org/Question_types#Single_choice_questions</ulink>)</para>
+<para>Single choice questions are those where the participant can only pick a single predefined answer option. This function parses the &apos;5&apos; type questions aka &apos;5 point choice&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#5_point_choice">https://manual.limesurvey.org/Question_types#5_point_choice</ulink>) This question shows a horizontal 1 to 5 scale from where the survey participants can select a single answer option.</para>
+<para>To see an output example for this type of questions you can see &apos;5.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2176" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2176" bodyend="2217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a6693e80e85b393574c05a3391529d6c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseDropdownQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseDropdownQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;!&apos; type questions aka &apos;List (dropdown)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#List_.28Dropdown.29">https://manual.limesurvey.org/Question_types#List_.28Dropdown.29</ulink>) This question type collects input from a dropdown list menu.</para>
+<para>To see an output example for this type of questions you can see &apos;Dropdown.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2241" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2241" bodyend="2314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a4d5ef987199543820d49b59316a474fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseLQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseLQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;L&apos; type questions aka &apos;List (radio)&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#List_.28Radio.29">https://manual.limesurvey.org/Question_types#List_.28Radio.29</ulink>) This question type collects input from a list of radio buttons.</para>
+<para>To see an output example for this type of questions you can see &apos;L.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2338" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2338" bodyend="2411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a505c7e1b3b2b7180dca7437a0d950d10" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseOQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseOQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;O&apos; type questions aka &apos;List with comment&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#List_with_comment">https://manual.limesurvey.org/Question_types#List_with_comment</ulink>) This question type displays a list of radio buttons, while allowing the participants to provide a additional comment with their submission.</para>
+<para>To see an output example for this type of questions you can see &apos;O.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2436" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2436" bodyend="2501"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1adb55f68b3558a0f66d4b2b9f417256d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseSQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseSQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TEXT QUESTIONS This function parses the &apos;S&apos; type questions aka &apos;Short free text&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Short_free_text">https://manual.limesurvey.org/Question_types#Short_free_text</ulink>) This question type collects a single line of text input.</para>
+<para>To see an output example for this type of questions you can see &apos;S.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2531" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2531" bodyend="2552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a8d5ebb25e9fc977c8d97be7d3cdc7aa9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseTQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseTQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;T&apos; type questions aka &apos;Long free text&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Long_free_text">https://manual.limesurvey.org/Question_types#Long_free_text</ulink>) This question type collects multiple lines of text input.</para>
+<para>To see an output example for this type of questions you can see &apos;T.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2576" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2576" bodyend="2597"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1af5b0587770c5a616cf7ced27a412ed09" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseUQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseUQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;U&apos; type questions aka &apos;Huge free text&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Huge_free_text">https://manual.limesurvey.org/Question_types#Huge_free_text</ulink>) This question type collect multiple lines of text input, allowing more text to be typed in.</para>
+<para>To see an output example for this type of questions you can see &apos;U.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2621" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2621" bodyend="2642"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a1257443341c7a588fa7e99ae6533e6c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseQQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the &apos;Q&apos; type questions aka &apos;Multiple short text&apos;.</para>
+<para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_short_text">https://manual.limesurvey.org/Question_types#Multiple_short_text</ulink>) This question type is a variation on the &apos;Short Text&apos; question type which allows more than one text entry per question. The user first defines the question and can then add additional text boxes by adding &apos;Answers&apos;. Each answer becomes the label of the new text box.</para>
+<para>NOTE: For this type of question, an additional object containing the count of the answers to the sub-questions will be added.</para>
+<para>To see an output example for this type of questions you can see &apos;Q.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2672" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2672" bodyend="2738"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a85eb84b36ed062a3d5b7d2c07e3edcb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseUnknownQuestion</definition>
+        <argsstring>($sgq, $qInfo, $gn, $qAttr)</argsstring>
+        <name>parseUnknownQuestion</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$qInfo</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <param>
+          <declname>$qAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function parses the unknown type questions.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2756" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2756" bodyend="2776"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a8fc2312babff9e9e69361fd520200c8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>moveTotalToEnd</definition>
+        <argsstring>($sgq, $gn)</argsstring>
+        <name>moveTotalToEnd</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function moves to the end the object identified by the key &apos;<emphasis>X</emphasis>&apos;. The identified object is located inside the &apos;answers&apos; object.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2793" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2793" bodyend="2798"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a43e9c4b19389cc6543c20e6e16a56b7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPercentage</definition>
+        <argsstring>($sgq, $gn)</argsstring>
+        <name>setPercentage</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the response rate for each answer.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2814" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2814" bodyend="2824"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a5da12de1d87751daeb91744e8782feb8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dropByCutoff</definition>
+        <argsstring>($sgq, $gn)</argsstring>
+        <name>dropByCutoff</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <param>
+          <declname>$gn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Discard all the answers whose cardinality is less than the cutoff.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2840" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2840" bodyend="2859"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a4fc4a71bbe12ac8f7b9f2ccd423a1b2f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkValidIDs</definition>
+        <argsstring>($IDs)</argsstring>
+        <name>checkValidIDs</name>
+        <param>
+          <declname>$IDs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a valid array of IDs has been passed.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2876" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2876" bodyend="2889"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a000e0bd45e2e07ed4462f1e9e1667829" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkValidTokens</definition>
+        <argsstring>($tokens)</argsstring>
+        <name>checkValidTokens</name>
+        <param>
+          <declname>$tokens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a valid array of tokens has been passed. All the tokens must contains only [0-9a-zA-z_~] characters which are all transparent in raw URL encoding, according to LimeSurvey &apos;Token.php&apos; class. (<ulink url="https://github.com/LimeSurvey/LimeSurvey/blob/master/application/models/Token.php#L257">https://github.com/LimeSurvey/LimeSurvey/blob/master/application/models/Token.php#L257</ulink>)</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2909" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2909" bodyend="2922"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a5fb770beaabbb2be41797b62cc447abe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkValidDate</definition>
+        <argsstring>($date)</argsstring>
+        <name>checkValidDate</name>
+        <param>
+          <declname>$date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a valid date has been passed and parse it.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2939" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2939" bodyend="2946"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1aa7dd5f16bb286e4b8ad6205f8449f80c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getInfoQuestions</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoQuestions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all data about all questions.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2961" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2961" bodyend="2974"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ad1aeb30bc6b3650e3c1d41517527ef11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSubQuestions</definition>
+        <argsstring>($qid)</argsstring>
+        <name>getSubQuestions</name>
+        <param>
+          <declname>$qid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all sub-questions about a specific question.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="2991" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="2991" bodyend="3001"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ae9dadfd36f0ddce2310fc15113973cb8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFreeTextAnswers</definition>
+        <argsstring>($sgq)</argsstring>
+        <name>getFreeTextAnswers</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all responses in a specific survey column; this function is useful to parse free text questions.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3018" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3018" bodyend="3026"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ad1bbd9019b9d7d5a606bbd7abc026636" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCountAnswers</definition>
+        <argsstring>($sgq)</argsstring>
+        <name>getCountAnswers</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the count of all responses in a specific survey column</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3043" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3043" bodyend="3053"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a8eec693ab20e9d66b19a540f9cae7d7b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getQuestionsAttributes</definition>
+        <argsstring>($qids)</argsstring>
+        <name>getQuestionsAttributes</name>
+        <param>
+          <declname>$qids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get some attributes about all question; the considered attributes are:<itemizedlist>
+<listitem><para>other_comment_mandatory,</para>
+</listitem><listitem><para>other_numbers_only,</para>
+</listitem><listitem><para>numbers_only,</para>
+</listitem><listitem><para>hidden</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3074" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3074" bodyend="3109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a8535de506a9648cd23fdefa4d11b9f7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getInfoByScaleId</definition>
+        <argsstring>($qid)</argsstring>
+        <name>getInfoByScaleId</name>
+        <param>
+          <declname>$qid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the codes and the questions texts for a specific sub-question. This function is useful to parse the &apos;:&apos; and the &apos;;&apos; questions types.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3127" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3127" bodyend="3137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ae49b668e6ad14aa1b573059e868aa5bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCountSGQA</definition>
+        <argsstring>($sgqa)</argsstring>
+        <name>getCountSGQA</name>
+        <param>
+          <declname>$sgqa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the response count in survey column {SGQA}. This function is useful to parse multiple choice questions.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3155" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3155" bodyend="3163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ae9fa1a599b7ad61f33a35256ef968fe7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getAnswersCodes</definition>
+        <argsstring>($parentQid, $scaleId=0)</argsstring>
+        <name>getAnswersCodes</name>
+        <param>
+          <declname>$parentQid</declname>
+        </param>
+        <param>
+          <declname>$scaleId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the codes and the answers texts for a specific sub-question.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3181" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3181" bodyend="3191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a8579bf35c50d2422305ca5bcb04557ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUploadedFiles</definition>
+        <argsstring>($sgq)</argsstring>
+        <name>getUploadedFiles</name>
+        <param>
+          <declname>$sgq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get data about uploaded files. This function is useful to parse the &apos;|&apos; questions type.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3209" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3209" bodyend="3218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1afd8f290775a9845e565b9b6caa177818" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getAvailableLanguages</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableLanguages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all the active languages for the current survey.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3233" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3233" bodyend="3240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a86d261451a43abd441bed48ab9203bb4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDefaultLanguage</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultLanguage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get default language for the current survey.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3255" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3255" bodyend="3262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a1a7893635852b319be4a31f7ffa3b751" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkAnonymousSurvey</definition>
+        <argsstring>($sid)</argsstring>
+        <name>checkAnonymousSurvey</name>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether the current survey stores the response tokens.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3279" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3279" bodyend="3287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1af1884e3f6b3b099106cc15b9ea898e3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkDatestampSurvey</definition>
+        <argsstring>($sid)</argsstring>
+        <name>checkDatestampSurvey</name>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether the current survey stores the response datestamps.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3304" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3304" bodyend="3312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ae0f6159512b97f6a3c295210e64dd5f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getIDsByTokens</definition>
+        <argsstring>($tokens)</argsstring>
+        <name>getIDsByTokens</name>
+        <param>
+          <declname>$tokens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the response IDs using tokens.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3329" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3329" bodyend="3338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a029f3ee2f4c62b0ffa5fca2311067315" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getIDsByDate</definition>
+        <argsstring>($from, $to)</argsstring>
+        <name>getIDsByDate</name>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <param>
+          <declname>$to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the response IDs using dates.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3356" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3356" bodyend="3363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1ae6e6e17f19346ffca936c9eb67223a13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkValidSid</definition>
+        <argsstring>($sid)</argsstring>
+        <name>checkValidSid</name>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a valid survey id has been passed and whether the survey is active or not.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3380" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3380" bodyend="3392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a9f0cc453a0a770fd0cf85121bff7ad5c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkValidLanguage</definition>
+        <argsstring>($sid, $lang)</argsstring>
+        <name>checkValidLanguage</name>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a valid language for current survey has been passed.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3410" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3410" bodyend="3422"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_parser_1a5328e4d6336e565d9f1deed168d64359" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkValidQlist</definition>
+        <argsstring>($sid, $qList)</argsstring>
+        <name>checkValidQlist</name>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$qList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a valid questions list has been passed. All the questions codes must comply the SGQA syntax, that is &apos;^\d{5,6}X\d+[A-Za-z0-9]{0,20}[#_]?[A-Za-z0-9]*$&apos;</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Parser/Parser.php" line="3442" column="22" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="3442" bodyend="3473"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ILSurveyParser</label>
+        <link refid="interface_l_survey_parser_1_1_i_l_survey_parser"/>
+      </node>
+      <node id="1">
+        <label>Parser</label>
+        <link refid="class_l_survey_parser_1_1_parser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ILSurveyParser</label>
+        <link refid="interface_l_survey_parser_1_1_i_l_survey_parser"/>
+      </node>
+      <node id="1">
+        <label>Parser</label>
+        <link refid="class_l_survey_parser_1_1_parser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="LSurveyParser/src/Parser/Parser.php" line="38" column="1" bodyfile="LSurveyParser/src/Parser/Parser.php" bodystart="37" bodyend="3474"/>
+    <listofallmembers>
+      <member refid="class_l_survey_parser_1_1_parser_1a5a7d2047220cc4de4a5d047d88cfbc03" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$cutoff</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a1e947a529bea199f9de0e86d73dbaec8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$dateCol</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$db</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a68f39949e76b64662a06cb56579d91c3" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$dbName</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a327b5ad28b08c3e596c3935eac26ad5f" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$IDs</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ab9df3f313e5634dc7884d44fbc213ea4" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$implodedIDs</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a7714b111b644017933931ec69a154102" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$lang</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a73004ce9cd673c1bfafd1dc351134797" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$output</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a31f8faa271b210c6e1882434f6290c8e" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$qList</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a6b6ac8423ccb37a59350c6f9a50930d1" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$qToExcl</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aab572fa0daf4f533e20d4cd1be98e0ba" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$questionsOnly</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a3b4e4b29ac1d6699dd65f8f0d6fa4133" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$sid</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1af7a0f4a960ae2219683c6a9a6667028d" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$stripTags</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a061ded67e1c12c266312830d080f46a7" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$tablePrefix</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a241b818f48030b628685b2e5119c5624" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>$total</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>__construct</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a1a7893635852b319be4a31f7ffa3b751" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkAnonymousSurvey</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1af1884e3f6b3b099106cc15b9ea898e3a" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkDatestampSurvey</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a5fb770beaabbb2be41797b62cc447abe" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkValidDate</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a4fc4a71bbe12ac8f7b9f2ccd423a1b2f" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkValidIDs</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a9f0cc453a0a770fd0cf85121bff7ad5c" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkValidLanguage</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a5328e4d6336e565d9f1deed168d64359" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkValidQlist</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ae6e6e17f19346ffca936c9eb67223a13" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkValidSid</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a000e0bd45e2e07ed4462f1e9e1667829" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>checkValidTokens</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a5da12de1d87751daeb91744e8782feb8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>dropByCutoff</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ae9fa1a599b7ad61f33a35256ef968fe7" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getAnswersCodes</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1afd8f290775a9845e565b9b6caa177818" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getAvailableLanguages</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ad1bbd9019b9d7d5a606bbd7abc026636" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getCountAnswers</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ae49b668e6ad14aa1b573059e868aa5bd" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getCountSGQA</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a86d261451a43abd441bed48ab9203bb4" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getDefaultLanguage</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ae9dadfd36f0ddce2310fc15113973cb8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getFreeTextAnswers</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a029f3ee2f4c62b0ffa5fca2311067315" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getIDsByDate</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ae0f6159512b97f6a3c295210e64dd5f8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getIDsByTokens</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a8535de506a9648cd23fdefa4d11b9f7a" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getInfoByScaleId</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aa7dd5f16bb286e4b8ad6205f8449f80c" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getInfoQuestions</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1afb76b3a836077895de57218561df3a2a" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getOnlyQuestions</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a8eec693ab20e9d66b19a540f9cae7d7b" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getQuestionsAttributes</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ad1aeb30bc6b3650e3c1d41517527ef11" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getSubQuestions</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a8579bf35c50d2422305ca5bcb04557ee" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>getUploadedFiles</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a8fc2312babff9e9e69361fd520200c8b" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>moveTotalToEnd</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aae1d42a94d14918ab26e2523519db4b7" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parse1Question</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1afb680fcf761b06eb039d37e5b8f538ea" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parse5Question</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aa6996182bdc37b497b4a7b15e577a36e" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseAQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a11c33700323b841e5b5ffa213ecb0827" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseBQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a342f352f3e60e3655cc96c8448329091" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseColonQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ade43f00fdaeea16843bbe193839bbe68" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseCQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ab8491512170301d3c40b6b016f0e7724" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseDQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a6693e80e85b393574c05a3391529d6c8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseDropdownQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1abeadef9d4cce395489c5bef775d86bc7" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseEQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ac43c2a3dafc280e4fe60b92bc7765bae" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseFQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a8dcf8c9dc3f2c1fe85fc42d292e788d1" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseGQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aa1fb45792dd3d3a4f73f70e1d935f47f" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseHQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aabba1c221083155110e14cf69eb1fd41" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseIQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a5f2c8a3e57df8e8ba3fbdc640d3f73b3" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseKQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a4d5ef987199543820d49b59316a474fa" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseLQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1aad6a28ae859a797b854276a534c452c9" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseMQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a03b3970e4abb7255df363398909c6584" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseNQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a505c7e1b3b2b7180dca7437a0d950d10" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseOQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a5fb459a4c7436b1e3f0315fde3c42e21" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parsePipeQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a22cf7b73b57e08a5f0fff00f14611aa3" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parsePQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a1257443341c7a588fa7e99ae6533e6c8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseQQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a3606a60e39b5f8c12fca27a51d1e5eeb" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseQuestions</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a56ae3a3d2128212a1af597f508f1a1df" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseQuestionsByDates</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a4241d6cea6e848010fab6c6230ddd854" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseQuestionsByIDs</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a0eff5c1e0fb3363949f1c30fe06b8059" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseQuestionsByTokens</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a0e6a8d5c01d126fc7df67ba8ccc690ca" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseRQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1abdd4649b27a1bb2c337943c1af983035" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseSemicolonQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1adb55f68b3558a0f66d4b2b9f417256d8" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseSQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a0ce1e104bc6e083e20aaab3ff8c27339" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseStarQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a8d5ebb25e9fc977c8d97be7d3cdc7aa9" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseTQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a85eb84b36ed062a3d5b7d2c07e3edcb7" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseUnknownQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1af5b0587770c5a616cf7ced27a412ed09" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseUQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a6b1a1f5e171bfc3ed391a907645b2ab1" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseXQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1ad694d9653a3a70a530aec43e86e621fe" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>parseYQuestion</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1af68017d37ebb254cd84c881d8c941014" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>setCutoff</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1acd65c5111df5334454242bcb93dd9a62" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>setDateCol</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a43e9c4b19389cc6543c20e6e16a56b7d" prot="private" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>setPercentage</name></member>
+      <member refid="class_l_survey_parser_1_1_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e" prot="public" virt="non-virtual"><scope>LSurveyParser::Parser</scope><name>setStripTags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

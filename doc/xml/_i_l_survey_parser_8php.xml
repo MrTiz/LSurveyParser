@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_i_l_survey_parser_8php" kind="file" language="PHP">
+    <compoundname>ILSurveyParser.php</compoundname>
+    <innerclass refid="interface_l_survey_parser_1_1_i_l_survey_parser" prot="public">LSurveyParser::ILSurveyParser</innerclass>
+    <innernamespace refid="namespace_l_survey_parser">LSurveyParser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="22"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_survey_parser" kindref="compound">LSurveyParser</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">defined(</highlight><highlight class="stringliteral">&apos;PATH&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>or<sp/>define(&apos;PATH&apos;,<sp/>realpath(dirname(__DIR__)));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">require<sp/>PATH<sp/>.<sp/>&apos;/config/config.php&apos;;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">require<sp/>PATH<sp/>.<sp/>&apos;/src/<ref refid="namespace_parser" kindref="compound">Parser</ref>/<ref refid="namespace_parser" kindref="compound">Parser</ref>.php&apos;;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">require<sp/>PATH<sp/>.<sp/>&apos;/src/Exceptions/LSurveyParserException.php&apos;;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">require<sp/>PATH<sp/>.<sp/>&apos;/src/Exceptions/SurveyException.php&apos;;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">require<sp/>PATH<sp/>.<sp/>&apos;/src/Database/Database.php&apos;;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="interface_l_survey_parser_1_1_i_l_survey_parser" refkind="compound"><highlight class="normal">interface<sp/><ref refid="interface_l_survey_parser_1_1_i_l_survey_parser" kindref="compound">ILSurveyParser</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>getOnlyQuestions($sid,<sp/>$lang<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$qList<sp/>=<sp/>[],<sp/>$qToExcl<sp/>=<sp/>[]);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>****************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>parseQuestionsByIDs($sid,<sp/>$IDs,<sp/>$lang<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$qList<sp/>=<sp/>[],<sp/>$qToExcl<sp/>=<sp/>[]);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>****************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>parseQuestionsByTokens($sid,<sp/>$tokens,<sp/>$lang<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$qList<sp/>=<sp/>[],<sp/>$qToExcl<sp/>=<sp/>[]);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>****************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>parseQuestionsByDates($sid,<sp/>$from,<sp/>$to,<sp/>$lang<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$qList<sp/>=<sp/>[],<sp/>$qToExcl<sp/>=<sp/>[]);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>****************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>setCutoff($cutoff<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>****************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>setDateCol($dateCol<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;submitdate&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>****************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>setStripTags($stripTags<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LSurveyParser/src/ILSurveyParser.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+{
+    "234479X1479X17401": {
+        "code": "q27",
+        "text": "Et harum quidem rerum Q27?",
+        "type": "M",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "SQ001": {
+                "text": "At",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ002": {
+                "text": "vero",
+                "N": 2,
+                "%": 11.76
+            },
+            "SQ003": {
+                "text": "eos",
+                "N": 2,
+                "%": 11.76
+            },
+            "SQ004": {
+                "text": "et",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ005": {
+                "text": "accusamus",
+                "N": 2,
+                "%": 11.76
+            },
+            "SQ006": {
+                "text": "et",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ007": {
+                "text": "iusto",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ008": {
+                "text": "odio",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ009": {
+                "text": "dignissimos",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ010": {
+                "text": "ducimus",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ011": {
+                "text": "qui",
+                "N": 1,
+                "%": 5.88
+            },
+            "SQ012": {
+                "text": "blanditiis",
+                "N": 3,
+                "%": 17.65
+            },
+            "other": {
+                "text": "Other",
+                "N": 2,
+                "%": 11.76
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 17,
+                "%": 100
+            }
+        }
+    },
+    "234479X1479X17401other": {
+        "code": "q27[other]",
+        "text": "Et harum quidem rerum Q27? [Other]",
+        "type": "M",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "qazsefv",
+            "edcfthn"
+        ]
+    }
+}

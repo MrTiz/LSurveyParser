@@ -1,0 +1,107 @@
+{
+    "234479X1476X17332SQ001": {
+        "code": "q1[SQ001]",
+        "text": "Lorem ipsum Q1? [consectetur adipiscing elit]",
+        "type": "F",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "ipsum",
+                "N": 2,
+                "%": 66.67
+            },
+            "A2": {
+                "text": "dolor",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "sit",
+                "N": 1,
+                "%": 33.33
+            },
+            "A4": {
+                "text": "amet",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17332SQ002": {
+        "code": "q1[SQ002]",
+        "text": "Lorem ipsum Q1? [sed do eiusmod tempor incididunt]",
+        "type": "F",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "ipsum",
+                "N": 1,
+                "%": 33.33
+            },
+            "A2": {
+                "text": "dolor",
+                "N": 2,
+                "%": 66.67
+            },
+            "A3": {
+                "text": "sit",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "amet",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17332SQ003": {
+        "code": "q1[SQ003]",
+        "text": "Lorem ipsum Q1? [ut labore et dolore magna aliqua]",
+        "type": "F",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "ipsum",
+                "N": 1,
+                "%": 33.33
+            },
+            "A2": {
+                "text": "dolor",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "sit",
+                "N": 2,
+                "%": 66.67
+            },
+            "A4": {
+                "text": "amet",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

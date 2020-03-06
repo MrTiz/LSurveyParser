@@ -1,0 +1,27 @@
+{
+    "234479X1477X17394": {
+        "code": "q20",
+        "text": "Neque porro quisquam est Q20?",
+        "type": "Y",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "N": {
+                "text": "No",
+                "N": 2,
+                "%": 66.67
+            },
+            "Y": {
+                "text": "Yes",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

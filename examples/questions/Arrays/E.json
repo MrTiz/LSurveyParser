@@ -1,0 +1,92 @@
+{
+    "234479X1476X17336SQ001": {
+        "code": "q2[SQ001]",
+        "text": "Sed ut perspiciatis Q2? [unde omnis iste]",
+        "type": "E",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "I": {
+                "text": "Increase",
+                "N": 1,
+                "%": 33.33
+            },
+            "S": {
+                "text": "Same",
+                "N": 0,
+                "%": 0
+            },
+            "D": {
+                "text": "Decrease",
+                "N": 2,
+                "%": 66.67
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17336SQ002": {
+        "code": "q2[SQ002]",
+        "text": "Sed ut perspiciatis Q2? [natus error sit]",
+        "type": "E",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "I": {
+                "text": "Increase",
+                "N": 1,
+                "%": 33.33
+            },
+            "S": {
+                "text": "Same",
+                "N": 1,
+                "%": 33.33
+            },
+            "D": {
+                "text": "Decrease",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17336SQ003": {
+        "code": "q2[SQ003]",
+        "text": "Sed ut perspiciatis Q2? [voluptatem accusantium]",
+        "type": "E",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "I": {
+                "text": "Increase",
+                "N": 2,
+                "%": 66.67
+            },
+            "S": {
+                "text": "Same",
+                "N": 0,
+                "%": 0
+            },
+            "D": {
+                "text": "Decrease",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

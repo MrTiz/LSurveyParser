@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_l_survey_parser_exception_8php" kind="file" language="PHP">
+    <compoundname>LSurveyParserException.php</compoundname>
+    <innerclass refid="class_l_survey_parser_1_1_l_survey_parser_exception" prot="public">LSurveyParser::LSurveyParserException</innerclass>
+    <innernamespace refid="namespace_l_survey_parser">LSurveyParser</innernamespace>
+    <innernamespace refid="namespace_exception">Exception</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="22"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_l_survey_parser" kindref="compound">LSurveyParser</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">use<sp/>Exception;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_l_survey_parser_1_1_l_survey_parser_exception" refkind="compound"><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_l_survey_parser_1_1_l_survey_parser_exception" kindref="compound">LSurveyParserException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$message<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unknown<sp/>error&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>$code<sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct($message<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,<sp/>$code<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$msg<sp/>=<sp/>$message<sp/>??<sp/>$this-&gt;message;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$cd<sp/><sp/>=<sp/>$code<sp/><sp/><sp/><sp/>??<sp/>$this-&gt;code;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct($msg,<sp/>$cd);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LSurveyParser/src/Exceptions/LSurveyParserException.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,282 @@
+\hypertarget{class_l_survey_parser_1_1_parser}{}\doxysection{Parser Class Reference}
+\label{class_l_survey_parser_1_1_parser}\index{Parser@{Parser}}
+Inheritance diagram for Parser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_l_survey_parser_1_1_parser}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_a095c5d389db211932136b53f25f39685}{\+\_\+\+\_\+construct}} ()
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_afb76b3a836077895de57218561df3a2a}{get\+Only\+Questions}} (\$sid, \$lang=null, \$q\+List=\mbox{[}$\,$\mbox{]}, \$q\+To\+Excl=\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_a4241d6cea6e848010fab6c6230ddd854}{parse\+Questions\+By\+I\+Ds}} (\$sid, \$I\+Ds, \$lang=null, \$q\+List=\mbox{[}$\,$\mbox{]}, \$q\+To\+Excl=\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_a0eff5c1e0fb3363949f1c30fe06b8059}{parse\+Questions\+By\+Tokens}} (\$sid, \$tokens, \$lang=null, \$q\+List=\mbox{[}$\,$\mbox{]}, \$q\+To\+Excl=\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_a56ae3a3d2128212a1af597f508f1a1df}{parse\+Questions\+By\+Dates}} (\$sid, \$from, \$to, \$lang=null, \$q\+List=\mbox{[}$\,$\mbox{]}, \$q\+To\+Excl=\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_af68017d37ebb254cd84c881d8c941014}{set\+Cutoff}} (\$cutoff=0)
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_acd65c5111df5334454242bcb93dd9a62}{set\+Date\+Col}} (\$date\+Col=\textquotesingle{}submitdate\textquotesingle{})
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser_a7d123a1a1fd89a18a92ab9fa2aa21c0e}{set\+Strip\+Tags}} (\$strip\+Tags=true)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_a095c5d389db211932136b53f25f39685}\label{class_l_survey_parser_1_1_parser_a095c5d389db211932136b53f25f39685}} 
+\index{Parser@{Parser}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+construct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_l_survey_parser_1_1_parser}{Parser}} constructor.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em P\+D\+O\+Exception$\vert$\+Survey\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_afb76b3a836077895de57218561df3a2a}\label{class_l_survey_parser_1_1_parser_afb76b3a836077895de57218561df3a2a}} 
+\index{Parser@{Parser}!getOnlyQuestions@{getOnlyQuestions}}
+\index{getOnlyQuestions@{getOnlyQuestions}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getOnlyQuestions()}{getOnlyQuestions()}}
+{\footnotesize\ttfamily get\+Only\+Questions (\begin{DoxyParamCaption}\item[{}]{\$sid,  }\item[{}]{\$lang = {\ttfamily null},  }\item[{}]{\$q\+List = {\ttfamily \mbox{[}\mbox{]}},  }\item[{}]{\$q\+To\+Excl = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})}
+
+Parse the questions only, excluding the answers.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$sid} & Survey ID \\
+\hline
+string & {\em \$lang} & (Optional) Survey language \\
+\hline
+array & {\em \$q\+List} & (Optional) List of questions to be considered \\
+\hline
+array & {\em \$q\+To\+Excl} & (Optional) List of questions to be excluded\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_l_survey_parser_1_1_survey_exception}{Survey\+Exception}}} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_afb76b3a836077895de57218561df3a2a}{I\+L\+Survey\+Parser}}.
+
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_a56ae3a3d2128212a1af597f508f1a1df}\label{class_l_survey_parser_1_1_parser_a56ae3a3d2128212a1af597f508f1a1df}} 
+\index{Parser@{Parser}!parseQuestionsByDates@{parseQuestionsByDates}}
+\index{parseQuestionsByDates@{parseQuestionsByDates}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{parseQuestionsByDates()}{parseQuestionsByDates()}}
+{\footnotesize\ttfamily parse\+Questions\+By\+Dates (\begin{DoxyParamCaption}\item[{}]{\$sid,  }\item[{}]{\$from,  }\item[{}]{\$to,  }\item[{}]{\$lang = {\ttfamily null},  }\item[{}]{\$q\+List = {\ttfamily \mbox{[}\mbox{]}},  }\item[{}]{\$q\+To\+Excl = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})}
+
+Parse the survey responses using the dates.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$sid} & Survey ID \\
+\hline
+string & {\em \$from} & Start date \\
+\hline
+string & {\em \$to} & End date \\
+\hline
+string & {\em \$lang} & (Optional) Survey language \\
+\hline
+array & {\em \$q\+List} & (Optional) List of questions to be considered \\
+\hline
+array & {\em \$q\+To\+Excl} & (Optional) List of questions to be excluded\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_l_survey_parser_1_1_survey_exception}{Survey\+Exception}}} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_a56ae3a3d2128212a1af597f508f1a1df}{I\+L\+Survey\+Parser}}.
+
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_a4241d6cea6e848010fab6c6230ddd854}\label{class_l_survey_parser_1_1_parser_a4241d6cea6e848010fab6c6230ddd854}} 
+\index{Parser@{Parser}!parseQuestionsByIDs@{parseQuestionsByIDs}}
+\index{parseQuestionsByIDs@{parseQuestionsByIDs}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{parseQuestionsByIDs()}{parseQuestionsByIDs()}}
+{\footnotesize\ttfamily parse\+Questions\+By\+I\+Ds (\begin{DoxyParamCaption}\item[{}]{\$sid,  }\item[{}]{\$\+I\+Ds,  }\item[{}]{\$lang = {\ttfamily null},  }\item[{}]{\$q\+List = {\ttfamily \mbox{[}\mbox{]}},  }\item[{}]{\$q\+To\+Excl = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})}
+
+Parse the survey responses using the I\+Ds.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$sid} & Survey ID \\
+\hline
+array & {\em \$\+I\+Ds} & List of I\+Ds \\
+\hline
+string & {\em \$lang} & (Optional) Survey language \\
+\hline
+array & {\em \$q\+List} & (Optional) List of questions to be considered \\
+\hline
+array & {\em \$q\+To\+Excl} & (Optional) List of questions to be excluded\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_l_survey_parser_1_1_survey_exception}{Survey\+Exception}}} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_a4241d6cea6e848010fab6c6230ddd854}{I\+L\+Survey\+Parser}}.
+
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_a0eff5c1e0fb3363949f1c30fe06b8059}\label{class_l_survey_parser_1_1_parser_a0eff5c1e0fb3363949f1c30fe06b8059}} 
+\index{Parser@{Parser}!parseQuestionsByTokens@{parseQuestionsByTokens}}
+\index{parseQuestionsByTokens@{parseQuestionsByTokens}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{parseQuestionsByTokens()}{parseQuestionsByTokens()}}
+{\footnotesize\ttfamily parse\+Questions\+By\+Tokens (\begin{DoxyParamCaption}\item[{}]{\$sid,  }\item[{}]{\$tokens,  }\item[{}]{\$lang = {\ttfamily null},  }\item[{}]{\$q\+List = {\ttfamily \mbox{[}\mbox{]}},  }\item[{}]{\$q\+To\+Excl = {\ttfamily \mbox{[}\mbox{]}} }\end{DoxyParamCaption})}
+
+Parse the survey responses using the tokens.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$sid} & Survey ID \\
+\hline
+array & {\em \$tokens} & List of tokens \\
+\hline
+string & {\em \$lang} & (Optional) Survey language \\
+\hline
+array & {\em \$q\+List} & (Optional) List of questions to be considered \\
+\hline
+array & {\em \$q\+To\+Excl} & (Optional) List of questions to be excluded\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_l_survey_parser_1_1_survey_exception}{Survey\+Exception}}} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_a0eff5c1e0fb3363949f1c30fe06b8059}{I\+L\+Survey\+Parser}}.
+
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_af68017d37ebb254cd84c881d8c941014}\label{class_l_survey_parser_1_1_parser_af68017d37ebb254cd84c881d8c941014}} 
+\index{Parser@{Parser}!setCutoff@{setCutoff}}
+\index{setCutoff@{setCutoff}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{setCutoff()}{setCutoff()}}
+{\footnotesize\ttfamily set\+Cutoff (\begin{DoxyParamCaption}\item[{}]{\$cutoff = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Set the cutoff.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$cutoff} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_af68017d37ebb254cd84c881d8c941014}{I\+L\+Survey\+Parser}}.
+
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_acd65c5111df5334454242bcb93dd9a62}\label{class_l_survey_parser_1_1_parser_acd65c5111df5334454242bcb93dd9a62}} 
+\index{Parser@{Parser}!setDateCol@{setDateCol}}
+\index{setDateCol@{setDateCol}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{setDateCol()}{setDateCol()}}
+{\footnotesize\ttfamily set\+Date\+Col (\begin{DoxyParamCaption}\item[{}]{\$date\+Col = {\ttfamily \textquotesingle{}submitdate\textquotesingle{}} }\end{DoxyParamCaption})}
+
+Set column name that should be used to get response I\+Ds using dates.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$date\+Col} & Column name \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_acd65c5111df5334454242bcb93dd9a62}{I\+L\+Survey\+Parser}}.
+
+\mbox{\Hypertarget{class_l_survey_parser_1_1_parser_a7d123a1a1fd89a18a92ab9fa2aa21c0e}\label{class_l_survey_parser_1_1_parser_a7d123a1a1fd89a18a92ab9fa2aa21c0e}} 
+\index{Parser@{Parser}!setStripTags@{setStripTags}}
+\index{setStripTags@{setStripTags}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{setStripTags()}{setStripTags()}}
+{\footnotesize\ttfamily set\+Strip\+Tags (\begin{DoxyParamCaption}\item[{}]{\$strip\+Tags = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Strip the H\+T\+ML tags from the questions and answers texts.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$strip\+Tags} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_l_survey_parser_1_1_i_l_survey_parser_a7d123a1a1fd89a18a92ab9fa2aa21c0e}{I\+L\+Survey\+Parser}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+L\+Survey\+Parser/src/\+Parser/Parser.\+php\end{DoxyCompactItemize}

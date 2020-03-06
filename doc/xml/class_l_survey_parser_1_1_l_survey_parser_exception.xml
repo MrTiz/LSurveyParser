@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_l_survey_parser_1_1_l_survey_parser_exception" kind="class" language="PHP" prot="public">
+    <compoundname>LSurveyParser::LSurveyParserException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_l_survey_parser_1_1_survey_exception" prot="public" virt="non-virtual">SurveyException</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_l_survey_parser_exception_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$message</definition>
+        <argsstring></argsstring>
+        <name>$message</name>
+        <initializer>= &apos;Unknown error&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Exceptions/LSurveyParserException.php" line="37" column="15" bodyfile="LSurveyParser/src/Exceptions/LSurveyParserException.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_l_survey_parser_exception_1a7949acdaecc70b9f035c12a7069db132" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$code</definition>
+        <argsstring></argsstring>
+        <name>$code</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Exceptions/LSurveyParserException.php" line="39" column="15" bodyfile="LSurveyParser/src/Exceptions/LSurveyParserException.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_survey_parser_1_1_l_survey_parser_exception_1a0c373deae7212b3fabcbbf3ce9a5794d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($message=null, $code=null)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$message</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$code</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_l_survey_parser_1_1_l_survey_parser_exception" kindref="compound">LSurveyParserException</ref> constructor.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametertype>string</parametertype>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error message </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametertype>int</parametertype>
+<parametername>$code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error code </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Exceptions/LSurveyParserException.php" line="51" column="21" bodyfile="LSurveyParser/src/Exceptions/LSurveyParserException.php" bodystart="51" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>SurveyException</label>
+        <link refid="class_l_survey_parser_1_1_survey_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>LSurveyParserException</label>
+        <link refid="class_l_survey_parser_1_1_l_survey_parser_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>LSurveyParserException</label>
+        <link refid="class_l_survey_parser_1_1_l_survey_parser_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="LSurveyParser/src/Exceptions/LSurveyParserException.php" line="35" column="1" bodyfile="LSurveyParser/src/Exceptions/LSurveyParserException.php" bodystart="34" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1a7949acdaecc70b9f035c12a7069db132" prot="protected" virt="non-virtual"><scope>LSurveyParser::LSurveyParserException</scope><name>$code</name></member>
+      <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="protected" virt="non-virtual"><scope>LSurveyParser::LSurveyParserException</scope><name>$message</name></member>
+      <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1a0c373deae7212b3fabcbbf3ce9a5794d" prot="public" virt="non-virtual"><scope>LSurveyParser::LSurveyParserException</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

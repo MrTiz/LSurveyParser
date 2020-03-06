@@ -1,0 +1,92 @@
+{
+    "234479X1476X17378SQ001": {
+        "code": "q10[SQ001]",
+        "text": "At vero eos et accusamus Q10? [et iusto odio]",
+        "type": "C",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "Y": {
+                "text": "Yes",
+                "N": 1,
+                "%": 33.33
+            },
+            "U": {
+                "text": "I don't know",
+                "N": 1,
+                "%": 33.33
+            },
+            "N": {
+                "text": "No",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17378SQ002": {
+        "code": "q10[SQ002]",
+        "text": "At vero eos et accusamus Q10? [dignissimos ducimus]",
+        "type": "C",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "Y": {
+                "text": "Yes",
+                "N": 0,
+                "%": 0
+            },
+            "U": {
+                "text": "I don't know",
+                "N": 3,
+                "%": 100
+            },
+            "N": {
+                "text": "No",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17378SQ003": {
+        "code": "q10[SQ003]",
+        "text": "At vero eos et accusamus Q10? [qui blanditiis]",
+        "type": "C",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "Y": {
+                "text": "Yes",
+                "N": 1,
+                "%": 33.33
+            },
+            "U": {
+                "text": "I don't know",
+                "N": 0,
+                "%": 0
+            },
+            "N": {
+                "text": "No",
+                "N": 2,
+                "%": 66.67
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

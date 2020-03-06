@@ -1,0 +1,284 @@
+.TH "Parser" 3 "Fri Mar 6 2020" "Version 1.0" "LSurveyParser" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Parser
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBILSurveyParser\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ()"
+.br
+.ti -1c
+.RI "\fBgetOnlyQuestions\fP ($sid, $lang=null, $qList=[], $qToExcl=[])"
+.br
+.ti -1c
+.RI "\fBparseQuestionsByIDs\fP ($sid, $IDs, $lang=null, $qList=[], $qToExcl=[])"
+.br
+.ti -1c
+.RI "\fBparseQuestionsByTokens\fP ($sid, $tokens, $lang=null, $qList=[], $qToExcl=[])"
+.br
+.ti -1c
+.RI "\fBparseQuestionsByDates\fP ($sid, $from, $to, $lang=null, $qList=[], $qToExcl=[])"
+.br
+.ti -1c
+.RI "\fBsetCutoff\fP ($cutoff=0)"
+.br
+.ti -1c
+.RI "\fBsetDateCol\fP ($dateCol='submitdate')"
+.br
+.ti -1c
+.RI "\fBsetStripTags\fP ($stripTags=true)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ()"
+\fBParser\fP constructor\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIPDOException|SurveyException\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "getOnlyQuestions ( $sid,  $lang = \fCnull\fP,  $qList = \fC[]\fP,  $qToExcl = \fC[]\fP)"
+Parse the questions only, excluding the answers\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$sid\fP Survey ID 
+.br
+\fI$lang\fP (Optional) Survey language 
+.br
+\fI$qList\fP (Optional) List of questions to be considered 
+.br
+\fI$qToExcl\fP (Optional) List of questions to be excluded
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBSurveyException\fP\fP 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+.SS "parseQuestionsByDates ( $sid,  $from,  $to,  $lang = \fCnull\fP,  $qList = \fC[]\fP,  $qToExcl = \fC[]\fP)"
+Parse the survey responses using the dates\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$sid\fP Survey ID 
+.br
+\fI$from\fP Start date 
+.br
+\fI$to\fP End date 
+.br
+\fI$lang\fP (Optional) Survey language 
+.br
+\fI$qList\fP (Optional) List of questions to be considered 
+.br
+\fI$qToExcl\fP (Optional) List of questions to be excluded
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBSurveyException\fP\fP 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+.SS "parseQuestionsByIDs ( $sid,  $IDs,  $lang = \fCnull\fP,  $qList = \fC[]\fP,  $qToExcl = \fC[]\fP)"
+Parse the survey responses using the IDs\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$sid\fP Survey ID 
+.br
+\fI$IDs\fP List of IDs 
+.br
+\fI$lang\fP (Optional) Survey language 
+.br
+\fI$qList\fP (Optional) List of questions to be considered 
+.br
+\fI$qToExcl\fP (Optional) List of questions to be excluded
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBSurveyException\fP\fP 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+.SS "parseQuestionsByTokens ( $sid,  $tokens,  $lang = \fCnull\fP,  $qList = \fC[]\fP,  $qToExcl = \fC[]\fP)"
+Parse the survey responses using the tokens\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$sid\fP Survey ID 
+.br
+\fI$tokens\fP List of tokens 
+.br
+\fI$lang\fP (Optional) Survey language 
+.br
+\fI$qList\fP (Optional) List of questions to be considered 
+.br
+\fI$qToExcl\fP (Optional) List of questions to be excluded
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fI\fBSurveyException\fP\fP 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+.SS "setCutoff ( $cutoff = \fC0\fP)"
+Set the cutoff\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$cutoff\fP 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+.SS "setDateCol ( $dateCol = \fC'submitdate'\fP)"
+Set column name that should be used to get response IDs using dates\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$dateCol\fP Column name 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+.SS "setStripTags ( $stripTags = \fCtrue\fP)"
+Strip the HTML tags from the questions and answers texts\&.
+.PP
+\fBAuthor\fP
+.RS 4
+Tiziano Marra https://github.com/MrTiz9 
+.RE
+.PP
+\fBSince\fP
+.RS 4
+1\&.0
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI$stripTags\fP 
+.RE
+.PP
+
+.PP
+Implements \fBILSurveyParser\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for LSurveyParser from the source code\&.

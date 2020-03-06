@@ -1,0 +1,3245 @@
+{
+  "Arrays": {
+    "234479X1476X17332SQ002": {
+      "code": "q1[SQ002]",
+      "text": "Lorem ipsum Q1? [sed do eiusmod tempor incididunt]",
+      "type": "F",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "ipsum",
+          "N": 1,
+          "%": 33.33
+        },
+        "A2": {
+          "text": "dolor",
+          "N": 2,
+          "%": 66.67
+        },
+        "A3": {
+          "text": "sit",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "amet",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17336SQ001": {
+      "code": "q2[SQ001]",
+      "text": "Sed ut perspiciatis Q2? [unde omnis iste]",
+      "type": "E",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "I": {
+          "text": "Increase",
+          "N": 1,
+          "%": 33.33
+        },
+        "S": {
+          "text": "Same",
+          "N": 0,
+          "%": 0
+        },
+        "D": {
+          "text": "Decrease",
+          "N": 2,
+          "%": 66.67
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17336SQ002": {
+      "code": "q2[SQ002]",
+      "text": "Sed ut perspiciatis Q2? [natus error sit]",
+      "type": "E",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "I": {
+          "text": "Increase",
+          "N": 1,
+          "%": 33.33
+        },
+        "S": {
+          "text": "Same",
+          "N": 1,
+          "%": 33.33
+        },
+        "D": {
+          "text": "Decrease",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17336SQ003": {
+      "code": "q2[SQ003]",
+      "text": "Sed ut perspiciatis Q2? [voluptatem accusantium]",
+      "type": "E",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "I": {
+          "text": "Increase",
+          "N": 2,
+          "%": 66.67
+        },
+        "S": {
+          "text": "Same",
+          "N": 0,
+          "%": 0
+        },
+        "D": {
+          "text": "Decrease",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ001_SQ001": {
+      "code": "q3[SQ001_SQ001]",
+      "text": "At vero eos et accusamus Q3? [et iusto odio][voluptatum]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 1,
+          "%": 33.33
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ001_SQ003": {
+      "code": "q3[SQ001_SQ003]",
+      "text": "At vero eos et accusamus Q3? [et iusto odio][atque]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "8": {
+          "text": "8",
+          "N": 1,
+          "%": 33.33
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ001_SQ004": {
+      "code": "q3[SQ001_SQ004]",
+      "text": "At vero eos et accusamus Q3? [et iusto odio][corrupti]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "4": {
+          "text": "4",
+          "N": 1,
+          "%": 50
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ002_SQ001": {
+      "code": "q3[SQ002_SQ001]",
+      "text": "At vero eos et accusamus Q3? [dignissimos ducimus][voluptatum]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "8": {
+          "text": "8",
+          "N": 1,
+          "%": 50
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ002_SQ002": {
+      "code": "q3[SQ002_SQ002]",
+      "text": "At vero eos et accusamus Q3? [dignissimos ducimus][deleniti]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "6": {
+          "text": "6",
+          "N": 1,
+          "%": 33.33
+        },
+        "7": {
+          "text": "7",
+          "N": 1,
+          "%": 33.33
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ002_SQ004": {
+      "code": "q3[SQ002_SQ004]",
+      "text": "At vero eos et accusamus Q3? [dignissimos ducimus][corrupti]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "5": {
+          "text": "5",
+          "N": 2,
+          "%": 66.67
+        },
+        "9": {
+          "text": "9",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ003_SQ001": {
+      "code": "q3[SQ003_SQ001]",
+      "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][voluptatum]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 1,
+          "%": 33.33
+        },
+        "5": {
+          "text": "5",
+          "N": 1,
+          "%": 33.33
+        },
+        "9": {
+          "text": "9",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ003_SQ002": {
+      "code": "q3[SQ003_SQ002]",
+      "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][deleniti]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "6": {
+          "text": "6",
+          "N": 1,
+          "%": 50
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ003_SQ003": {
+      "code": "q3[SQ003_SQ003]",
+      "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][atque]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "7": {
+          "text": "7",
+          "N": 1,
+          "%": 50
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ003_SQ004": {
+      "code": "q3[SQ003_SQ004]",
+      "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][corrupti]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "8": {
+          "text": "8",
+          "N": 1,
+          "%": 100
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 1,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17348SQ001_SQ001": {
+      "code": "q4[SQ001_SQ001]",
+      "text": "Neque porro quisquam Q4? [est qui dolorem][dolor]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "qwerty",
+        "qw",
+        "qwert"
+      ]
+    },
+    "234479X1476X17348SQ001_SQ002": {
+      "code": "q4[SQ001_SQ002]",
+      "text": "Neque porro quisquam Q4? [est qui dolorem][sit]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "uiop",
+        "er",
+        "yuiop"
+      ]
+    },
+    "234479X1476X17348SQ002_SQ001": {
+      "code": "q4[SQ002_SQ001]",
+      "text": "Neque porro quisquam Q4? [ipsum quia][dolor]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "bnm",
+        "bnm"
+      ]
+    },
+    "234479X1476X17348SQ002_SQ002": {
+      "code": "q4[SQ002_SQ002]",
+      "text": "Neque porro quisquam Q4? [ipsum quia][sit]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "zxcv",
+        "ds",
+        "zxcv"
+      ]
+    },
+    "234479X1476X17348SQ002_SQ003": {
+      "code": "q4[SQ002_SQ003]",
+      "text": "Neque porro quisquam Q4? [ipsum quia][amet]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "gfdsa",
+        "bcfx",
+        "gfdsa"
+      ]
+    },
+    "234479X1476X17354SQ001_SQ001": {
+      "code": "q5[SQ001_SQ001]",
+      "text": "Neque porro quisquam Q5?\r\n [est qui dolorem][dolor]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "123",
+        "54",
+        "12"
+      ]
+    },
+    "234479X1476X17354SQ001_SQ002": {
+      "code": "q5[SQ001_SQ002]",
+      "text": "Neque porro quisquam Q5?\r\n [est qui dolorem][sit]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "456",
+        "767",
+        "34"
+      ]
+    },
+    "234479X1476X17354SQ001_SQ003": {
+      "code": "q5[SQ001_SQ003]",
+      "text": "Neque porro quisquam Q5?\r\n [est qui dolorem][amet]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "789",
+        "54",
+        "56"
+      ]
+    },
+    "234479X1476X17354SQ002_SQ001": {
+      "code": "q5[SQ002_SQ001]",
+      "text": "Neque porro quisquam Q5?\r\n [ipsum quia][dolor]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "4321",
+        "6"
+      ]
+    },
+    "234479X1476X17354SQ002_SQ002": {
+      "code": "q5[SQ002_SQ002]",
+      "text": "Neque porro quisquam Q5?\r\n [ipsum quia][sit]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "765",
+        "3",
+        "90"
+      ]
+    },
+    "234479X1476X17354SQ002_SQ003": {
+      "code": "q5[SQ002_SQ003]",
+      "text": "Neque porro quisquam Q5?\r\n [ipsum quia][amet]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "980",
+        "31",
+        "78"
+      ]
+    },
+    "234479X1476X17360SQ001": {
+      "code": "q6[SQ001]",
+      "text": "Lorem ipsum dolor Q6? [sit]",
+      "type": "B",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 1,
+          "%": 33.33
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 0,
+          "%": 0
+        },
+        "4": {
+          "text": "4",
+          "N": 1,
+          "%": 33.33
+        },
+        "5": {
+          "text": "5",
+          "N": 0,
+          "%": 0
+        },
+        "6": {
+          "text": "6",
+          "N": 0,
+          "%": 0
+        },
+        "7": {
+          "text": "7",
+          "N": 1,
+          "%": 33.33
+        },
+        "8": {
+          "text": "8",
+          "N": 0,
+          "%": 0
+        },
+        "9": {
+          "text": "9",
+          "N": 0,
+          "%": 0
+        },
+        "10": {
+          "text": "10",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17360SQ003": {
+      "code": "q6[SQ003]",
+      "text": "Lorem ipsum dolor Q6? [consectetur]",
+      "type": "B",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 0,
+          "%": 0
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "4": {
+          "text": "4",
+          "N": 0,
+          "%": 0
+        },
+        "5": {
+          "text": "5",
+          "N": 1,
+          "%": 33.33
+        },
+        "6": {
+          "text": "6",
+          "N": 1,
+          "%": 33.33
+        },
+        "7": {
+          "text": "7",
+          "N": 0,
+          "%": 0
+        },
+        "8": {
+          "text": "8",
+          "N": 0,
+          "%": 0
+        },
+        "9": {
+          "text": "9",
+          "N": 0,
+          "%": 0
+        },
+        "10": {
+          "text": "10",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17360SQ004": {
+      "code": "q6[SQ004]",
+      "text": "Lorem ipsum dolor Q6? [adipiscing]",
+      "type": "B",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 1,
+          "%": 33.33
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 0,
+          "%": 0
+        },
+        "4": {
+          "text": "4",
+          "N": 1,
+          "%": 33.33
+        },
+        "5": {
+          "text": "5",
+          "N": 0,
+          "%": 0
+        },
+        "6": {
+          "text": "6",
+          "N": 0,
+          "%": 0
+        },
+        "7": {
+          "text": "7",
+          "N": 0,
+          "%": 0
+        },
+        "8": {
+          "text": "8",
+          "N": 1,
+          "%": 33.33
+        },
+        "9": {
+          "text": "9",
+          "N": 0,
+          "%": 0
+        },
+        "10": {
+          "text": "10",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17360SQ005": {
+      "code": "q6[SQ005]",
+      "text": "Lorem ipsum dolor Q6? [elit]",
+      "type": "B",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 0,
+          "%": 0
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "4": {
+          "text": "4",
+          "N": 0,
+          "%": 0
+        },
+        "5": {
+          "text": "5",
+          "N": 1,
+          "%": 33.33
+        },
+        "6": {
+          "text": "6",
+          "N": 0,
+          "%": 0
+        },
+        "7": {
+          "text": "7",
+          "N": 0,
+          "%": 0
+        },
+        "8": {
+          "text": "8",
+          "N": 0,
+          "%": 0
+        },
+        "9": {
+          "text": "9",
+          "N": 0,
+          "%": 0
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17366SQ001": {
+      "code": "q7[SQ001]",
+      "text": "Sed ut perspiciatis unde omnis Q7? [iste]",
+      "type": "A",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 0,
+          "%": 0
+        },
+        "2": {
+          "text": "2",
+          "N": 1,
+          "%": 33.33
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "4": {
+          "text": "4",
+          "N": 0,
+          "%": 0
+        },
+        "5": {
+          "text": "5",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17366SQ002": {
+      "code": "q7[SQ002]",
+      "text": "Sed ut perspiciatis unde omnis Q7? [natus]",
+      "type": "A",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 0,
+          "%": 0
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "4": {
+          "text": "4",
+          "N": 1,
+          "%": 33.33
+        },
+        "5": {
+          "text": "5",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17370SQ001#0": {
+      "code": "q8[SQ001][0]",
+      "text": "Ut enim ad minima veniam Q8? [consequatur][Scale 1]",
+      "type": "1",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "quis nostrum",
+          "N": 2,
+          "%": 66.67
+        },
+        "A2": {
+          "text": "exercitationem ullam",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "corporis suscipit",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17370SQ001#1": {
+      "code": "q8[SQ001][1]",
+      "text": "Ut enim ad minima veniam Q8? [consequatur][Scale 2]",
+      "type": "1",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "laboriosam",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "nisi ut",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "aliquid",
+          "N": 1,
+          "%": 50
+        },
+        "A4": {
+          "text": "commodi",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17370SQ002#0": {
+      "code": "q8[SQ002][0]",
+      "text": "Ut enim ad minima veniam Q8? [Quis autem vel][Scale 1]",
+      "type": "1",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "quis nostrum",
+          "N": 1,
+          "%": 33.33
+        },
+        "A2": {
+          "text": "exercitationem ullam",
+          "N": 2,
+          "%": 66.67
+        },
+        "A3": {
+          "text": "corporis suscipit",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17370SQ002#1": {
+      "code": "q8[SQ002][1]",
+      "text": "Ut enim ad minima veniam Q8? [Quis autem vel][Scale 2]",
+      "type": "1",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "laboriosam",
+          "N": 1,
+          "%": 33.33
+        },
+        "A2": {
+          "text": "nisi ut",
+          "N": 1,
+          "%": 33.33
+        },
+        "A3": {
+          "text": "aliquid",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "commodi",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17370SQ003#0": {
+      "code": "q8[SQ003][0]",
+      "text": "Ut enim ad minima veniam Q8? [eum iure reprehenderit][Scale 1]",
+      "type": "1",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "quis nostrum",
+          "N": 1,
+          "%": 50
+        },
+        "A2": {
+          "text": "exercitationem ullam",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "corporis suscipit",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17370SQ003#1": {
+      "code": "q8[SQ003][1]",
+      "text": "Ut enim ad minima veniam Q8? [eum iure reprehenderit][Scale 2]",
+      "type": "1",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "laboriosam",
+          "N": 1,
+          "%": 33.33
+        },
+        "A2": {
+          "text": "nisi ut",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "aliquid",
+          "N": 1,
+          "%": 33.33
+        },
+        "A4": {
+          "text": "commodi",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17374SQ001": {
+      "code": "q9[SQ001]",
+      "text": "Vel illum qui dolorem Q9? [magnam aliquam]",
+      "type": "H",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "eum fugiat",
+          "N": 2,
+          "%": 66.67
+        },
+        "A2": {
+          "text": "quo voluptas",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "nulla pariatur",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17374SQ002": {
+      "code": "q9[SQ002]",
+      "text": "Vel illum qui dolorem Q9? [quaerat voluptatem]",
+      "type": "H",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "eum fugiat",
+          "N": 1,
+          "%": 33.33
+        },
+        "A2": {
+          "text": "quo voluptas",
+          "N": 1,
+          "%": 33.33
+        },
+        "A3": {
+          "text": "nulla pariatur",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17374SQ003": {
+      "code": "q9[SQ003]",
+      "text": "Vel illum qui dolorem Q9? [ad minima veniam]",
+      "type": "H",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "eum fugiat",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "quo voluptas",
+          "N": 1,
+          "%": 33.33
+        },
+        "A3": {
+          "text": "nulla pariatur",
+          "N": 2,
+          "%": 66.67
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17378SQ001": {
+      "code": "q10[SQ001]",
+      "text": "At vero eos et accusamus Q10? [et iusto odio]",
+      "type": "C",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "Y": {
+          "text": "Yes",
+          "N": 1,
+          "%": 33.33
+        },
+        "U": {
+          "text": "I don't know",
+          "N": 1,
+          "%": 33.33
+        },
+        "N": {
+          "text": "No",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17378SQ002": {
+      "code": "q10[SQ002]",
+      "text": "At vero eos et accusamus Q10? [dignissimos ducimus]",
+      "type": "C",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "Y": {
+          "text": "Yes",
+          "N": 0,
+          "%": 0
+        },
+        "U": {
+          "text": "I don't know",
+          "N": 3,
+          "%": 100
+        },
+        "N": {
+          "text": "No",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17378SQ003": {
+      "code": "q10[SQ003]",
+      "text": "At vero eos et accusamus Q10? [qui blanditiis]",
+      "type": "C",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "Y": {
+          "text": "Yes",
+          "N": 1,
+          "%": 33.33
+        },
+        "U": {
+          "text": "I don't know",
+          "N": 0,
+          "%": 0
+        },
+        "N": {
+          "text": "No",
+          "N": 2,
+          "%": 66.67
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    }
+  },
+  "Mask questions": {
+    "234479X1477X17382": {
+      "code": "q11",
+      "text": "Itaque earum rerum hic Q11?",
+      "type": "I",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "en": {
+          "text": "en",
+          "N": 2,
+          "%": 66.67
+        },
+        "it": {
+          "text": "it",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X17383": {
+      "code": "q12",
+      "text": "Tenetur a sapiente delectus Q12?",
+      "type": "|",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "0": {
+          "text": "[{ \"title\":\"immagine\",\"comment\":\"foto\",\"size\":\"394.212890625\",\"name\":\"0Dv0rhwh_1920x1200.jpg\",\"filename\":\"fu_rk7aynx2gi37fic\",\"ext\":\"jpg\" }]",
+          "N": 1,
+          "%": 33.33
+        },
+        "1": {
+          "text": "[{ \"title\":\"sea\",\"comment\":\"beautiful sea\",\"size\":\"962.8955078125\",\"name\":\"0H7jX2EZ_1920x1200.jpg\",\"filename\":\"fu_uw9hdn45f2jp9bq\",\"ext\":\"jpg\" }]",
+          "N": 1,
+          "%": 33.33
+        },
+        "2": {
+          "text": "[{ \"title\":\"autumn\",\"comment\":\"beautiful autumn\",\"size\":\"573.89453125\",\"name\":\"5LsvB5kF_1920x1200.jpg\",\"filename\":\"fu_pc3xstr8fqu379v\",\"ext\":\"jpg\" }]",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173841": {
+      "code": "q13[1]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 1]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 2,
+          "%": 66.67
+        },
+        "A2": {
+          "text": "alias",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 0,
+          "%": 0
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173842": {
+      "code": "q13[2]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 2]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "alias",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 1,
+          "%": 33.33
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 1,
+          "%": 33.33
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 1,
+          "%": 33.33
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173843": {
+      "code": "q13[3]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 3]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "alias",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 1,
+          "%": 33.33
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 1,
+          "%": 33.33
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 1,
+          "%": 33.33
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173844": {
+      "code": "q13[4]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 4]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "alias",
+          "N": 1,
+          "%": 50
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 1,
+          "%": 50
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173845": {
+      "code": "q13[5]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 5]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "alias",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 0,
+          "%": 0
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 0,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173846": {
+      "code": "q13[6]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 6]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "alias",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 0,
+          "%": 0
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 0,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X173847": {
+      "code": "q13[7]",
+      "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 7]",
+      "type": "R",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "maiores",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "alias",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "consequatur",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "perferendis",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "doloribus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "asperiores",
+          "N": 0,
+          "%": 0
+        },
+        "A7": {
+          "text": "repellat",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 0,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X17385": {
+      "code": "q14",
+      "text": "Et harum quidem rerum Q14?",
+      "type": "D",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "2020-01-26 00:00:00",
+        "2020-03-01 00:00:00",
+        "2020-05-08 00:00:00"
+      ]
+    },
+    "234479X1477X17386": {
+      "code": "q15",
+      "text": "Nam libero tempore Q15?",
+      "type": "*",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "Nam libero tempore Q15?",
+        "Nam libero tempore Q15?",
+        "Nam libero tempore Q15?"
+      ]
+    },
+    "234479X1477X17387": {
+      "code": "q16",
+      "text": "Nam libero tempore Q16?",
+      "type": "*",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1477X17388": {
+      "code": "q17",
+      "text": "Ut enim ad minima veniam Q17?",
+      "type": "G",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "M": {
+          "text": "Male",
+          "N": 1,
+          "%": 33.33
+        },
+        "F": {
+          "text": "Female",
+          "N": 2,
+          "%": 66.67
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X17389": {
+      "code": "q18",
+      "text": "Excepteur sint occaecat Q18?",
+      "type": "N",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "55555.0000000000",
+        "55555.0000000000",
+        "123.0000000000"
+      ]
+    },
+    "234479X1477X17390SQ001": {
+      "code": "q19[SQ001]",
+      "text": "Nemo enim ipsam voluptatem Q19? [quia voluptas sit]",
+      "type": "K",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "789.0000000000",
+        "1.0000000000",
+        "456.0000000000"
+      ]
+    },
+    "234479X1477X17390SQ002": {
+      "code": "q19[SQ002]",
+      "text": "Nemo enim ipsam voluptatem Q19? [aspernatur aut odit]",
+      "type": "K",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "654.0000000000",
+        "55.0000000000",
+        "789.0000000000"
+      ]
+    },
+    "234479X1477X17390SQ003": {
+      "code": "q19[SQ003]",
+      "text": "Nemo enim ipsam voluptatem Q19? [aut fugit]",
+      "type": "K",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "123.0000000000",
+        "26.0000000000",
+        "0.0000000000"
+      ]
+    },
+    "234479X1477X17394": {
+      "code": "q20",
+      "text": "Neque porro quisquam est Q20?",
+      "type": "Y",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "N": {
+          "text": "No",
+          "N": 2,
+          "%": 66.67
+        },
+        "Y": {
+          "text": "Yes",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1477X17395": {
+      "code": "q21",
+      "text": "Quis autem vel eum iure reprehenderit Q21?",
+      "type": "X",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false
+    }
+  },
+  "Single choice questions": {
+    "234479X1478X17396": {
+      "code": "q22",
+      "text": "Nam libero tempore, cum soluta Q22?",
+      "type": "!",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "At",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "vero",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "eos",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "accusamus",
+          "N": 1,
+          "%": 33.33
+        },
+        "A6": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "A7": {
+          "text": "iusto",
+          "N": 0,
+          "%": 0
+        },
+        "A8": {
+          "text": "odio",
+          "N": 0,
+          "%": 0
+        },
+        "A9": {
+          "text": "dignissimos",
+          "N": 1,
+          "%": 33.33
+        },
+        "A10": {
+          "text": "ducimus",
+          "N": 0,
+          "%": 0
+        },
+        "A11": {
+          "text": "qui",
+          "N": 0,
+          "%": 0
+        },
+        "A12": {
+          "text": "blanditiis",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        },
+        "-oth-": {
+          "N": 1,
+          "%": 33.33
+        }
+      }
+    },
+    "234479X1478X17396other": {
+      "code": "q22[other]",
+      "text": "Nam libero tempore, cum soluta Q22? [Other]",
+      "type": "other",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "ciao"
+      ]
+    },
+    "234479X1478X17397": {
+      "code": "q23",
+      "text": "Et harum quidem rerum facilis Q23?",
+      "type": "L",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "At",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "vero",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "eos",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "accusamus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "et",
+          "N": 1,
+          "%": 33.33
+        },
+        "A7": {
+          "text": "iusto",
+          "N": 0,
+          "%": 0
+        },
+        "A8": {
+          "text": "odio",
+          "N": 1,
+          "%": 33.33
+        },
+        "A9": {
+          "text": "dignissimos",
+          "N": 0,
+          "%": 0
+        },
+        "A10": {
+          "text": "ducimus",
+          "N": 0,
+          "%": 0
+        },
+        "A11": {
+          "text": "qui",
+          "N": 0,
+          "%": 0
+        },
+        "A12": {
+          "text": "blanditiis",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        },
+        "-oth-": {
+          "N": 1,
+          "%": 33.33
+        }
+      }
+    },
+    "234479X1478X17397other": {
+      "code": "q23[other]",
+      "text": "Et harum quidem rerum facilis Q23? [Other]",
+      "type": "other",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "mjhkhj"
+      ]
+    },
+    "234479X1478X17398": {
+      "code": "q24",
+      "text": "Et harum quidem rerum facilis Q24?",
+      "type": "L",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "At",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "vero",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "eos",
+          "N": 0,
+          "%": 0
+        },
+        "A4": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "A5": {
+          "text": "accusamus",
+          "N": 0,
+          "%": 0
+        },
+        "A6": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "A7": {
+          "text": "iusto",
+          "N": 0,
+          "%": 0
+        },
+        "A8": {
+          "text": "odio",
+          "N": 0,
+          "%": 0
+        },
+        "A9": {
+          "text": "dignissimos",
+          "N": 1,
+          "%": 33.33
+        },
+        "A10": {
+          "text": "ducimus",
+          "N": 0,
+          "%": 0
+        },
+        "A11": {
+          "text": "qui",
+          "N": 0,
+          "%": 0
+        },
+        "A12": {
+          "text": "blanditiis",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        },
+        "-oth-": {
+          "N": 2,
+          "%": 66.67
+        }
+      }
+    },
+    "234479X1478X17398other": {
+      "code": "q24[other]",
+      "text": "Et harum quidem rerum facilis Q24? [Other]",
+      "type": "other",
+      "mandatory": true,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "55555",
+        "6756"
+      ]
+    },
+    "234479X1478X17399": {
+      "code": "q25",
+      "text": "Temporibus autem quibusdam Q25?",
+      "type": "O",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "officiis",
+          "N": 0,
+          "%": 0
+        },
+        "A2": {
+          "text": "debitis",
+          "N": 1,
+          "%": 33.33
+        },
+        "A3": {
+          "text": "necessitatibus",
+          "N": 1,
+          "%": 33.33
+        },
+        "A4": {
+          "text": "eveniet",
+          "N": 1,
+          "%": 33.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1478X17399comment": {
+      "code": "q25[comment]",
+      "text": "Temporibus autem quibusdam Q25? [Comment]",
+      "type": "O",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "mnbvcxz",
+        "asdfghjkl",
+        "yuiop"
+      ]
+    },
+    "234479X1478X17400": {
+      "code": "q26",
+      "text": "Itaque earum rerum hic Q26?",
+      "type": "5",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 0,
+          "%": 0
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "4": {
+          "text": "4",
+          "N": 0,
+          "%": 0
+        },
+        "5": {
+          "text": "5",
+          "N": 2,
+          "%": 66.67
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    }
+  },
+  "Multiple choice questions": {
+    "234479X1479X17401": {
+      "code": "q27",
+      "text": "Et harum quidem rerum Q27?",
+      "type": "M",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "SQ001": {
+          "text": "At",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ002": {
+          "text": "vero",
+          "N": 2,
+          "%": 11.76
+        },
+        "SQ003": {
+          "text": "eos",
+          "N": 2,
+          "%": 11.76
+        },
+        "SQ004": {
+          "text": "et",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ005": {
+          "text": "accusamus",
+          "N": 2,
+          "%": 11.76
+        },
+        "SQ006": {
+          "text": "et",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ007": {
+          "text": "iusto",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ008": {
+          "text": "odio",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ009": {
+          "text": "dignissimos",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ010": {
+          "text": "ducimus",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ011": {
+          "text": "qui",
+          "N": 1,
+          "%": 5.88
+        },
+        "SQ012": {
+          "text": "blanditiis",
+          "N": 3,
+          "%": 17.65
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 17,
+          "%": 100
+        }
+      }
+    },
+    "234479X1479X17401other": {
+      "code": "q27[other]",
+      "text": "Et harum quidem rerum Q27? [Other]",
+      "type": "other",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "qazsefv",
+        "edcfthn"
+      ]
+    },
+    "234479X1479X17415": {
+      "code": "q28",
+      "text": "Et harum quidem rerum Q28?",
+      "type": "M",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "SQ001": {
+          "text": "At",
+          "N": 2,
+          "%": 12.5
+        },
+        "SQ002": {
+          "text": "vero",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ003": {
+          "text": "eos",
+          "N": 2,
+          "%": 12.5
+        },
+        "SQ004": {
+          "text": "et",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ005": {
+          "text": "accusamus",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ006": {
+          "text": "et",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ007": {
+          "text": "iusto",
+          "N": 2,
+          "%": 12.5
+        },
+        "SQ008": {
+          "text": "odio",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ009": {
+          "text": "dignissimos",
+          "N": 2,
+          "%": 12.5
+        },
+        "SQ010": {
+          "text": "ducimus",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ011": {
+          "text": "qui",
+          "N": 1,
+          "%": 6.25
+        },
+        "SQ012": {
+          "text": "blanditiis",
+          "N": 1,
+          "%": 6.25
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 16,
+          "%": 100
+        }
+      }
+    },
+    "234479X1479X17415other": {
+      "code": "q28[other]",
+      "text": "Et harum quidem rerum Q28? [Other]",
+      "type": "other",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "545454",
+        "9876544321"
+      ]
+    },
+    "234479X1479X17428": {
+      "code": "q29",
+      "text": "Lorem ipsum dolor sit amet Q29?",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "SQ001": {
+          "text": "At",
+          "N": 2,
+          "%": 25
+        },
+        "SQ002": {
+          "text": "vero",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ003": {
+          "text": "eos",
+          "N": 0,
+          "%": 0
+        },
+        "SQ004": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "SQ005": {
+          "text": "accusamus",
+          "N": 0,
+          "%": 0
+        },
+        "SQ006": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "SQ007": {
+          "text": "iusto",
+          "N": 2,
+          "%": 25
+        },
+        "SQ008": {
+          "text": "odio",
+          "N": 0,
+          "%": 0
+        },
+        "SQ009": {
+          "text": "dignissimos",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ010": {
+          "text": "ducimus",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ011": {
+          "text": "qui",
+          "N": 0,
+          "%": 0
+        },
+        "SQ012": {
+          "text": "blanditiis",
+          "N": 1,
+          "%": 12.5
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 8,
+          "%": 100
+        }
+      }
+    },
+    "234479X1479X17428SQ001comment": {
+      "code": "q29[SQ001comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [At] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "poiuytrewq",
+        "yuiop"
+      ]
+    },
+    "234479X1479X17428SQ002comment": {
+      "code": "q29[SQ002comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [vero] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "iui"
+      ]
+    },
+    "234479X1479X17428SQ003comment": {
+      "code": "q29[SQ003comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [eos] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17428SQ004comment": {
+      "code": "q29[SQ004comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [et] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17428SQ005comment": {
+      "code": "q29[SQ005comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [accusamus] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17428SQ006comment": {
+      "code": "q29[SQ006comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [et] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17428SQ007comment": {
+      "code": "q29[SQ007comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [iusto] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "tyhbm",
+        "iuyrr"
+      ]
+    },
+    "234479X1479X17428SQ008comment": {
+      "code": "q29[SQ008comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [odio] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17428SQ009comment": {
+      "code": "q29[SQ009comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [dignissimos] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "lkjhgfds"
+      ]
+    },
+    "234479X1479X17428SQ010comment": {
+      "code": "q29[SQ010comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [ducimus] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "uytrt"
+      ]
+    },
+    "234479X1479X17428SQ011comment": {
+      "code": "q29[SQ011comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [qui] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17428SQ012comment": {
+      "code": "q29[SQ012comment]",
+      "text": "Lorem ipsum dolor sit amet Q29? [blanditiis] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "rewqas"
+      ]
+    },
+    "234479X1479X17428other": {
+      "code": "q29[other]",
+      "text": "Lorem ipsum dolor sit amet Q29? [Other]",
+      "type": "other",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "tgbhyujnmikolp"
+      ]
+    },
+    "234479X1479X17442": {
+      "code": "q30",
+      "text": "Lorem ipsum dolor sit amet Q30?",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "SQ001": {
+          "text": "At",
+          "N": 0,
+          "%": 0
+        },
+        "SQ002": {
+          "text": "vero",
+          "N": 0,
+          "%": 0
+        },
+        "SQ003": {
+          "text": "eos",
+          "N": 2,
+          "%": 25
+        },
+        "SQ004": {
+          "text": "et",
+          "N": 0,
+          "%": 0
+        },
+        "SQ005": {
+          "text": "accusamus",
+          "N": 0,
+          "%": 0
+        },
+        "SQ006": {
+          "text": "et",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ007": {
+          "text": "iusto",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ008": {
+          "text": "odio",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ009": {
+          "text": "dignissimos",
+          "N": 0,
+          "%": 0
+        },
+        "SQ010": {
+          "text": "ducimus",
+          "N": 1,
+          "%": 12.5
+        },
+        "SQ011": {
+          "text": "qui",
+          "N": 2,
+          "%": 25
+        },
+        "SQ012": {
+          "text": "blanditiis",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 8,
+          "%": 100
+        }
+      }
+    },
+    "234479X1479X17442SQ001comment": {
+      "code": "q30[SQ001comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [At] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17442SQ002comment": {
+      "code": "q30[SQ002comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [vero] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17442SQ003comment": {
+      "code": "q30[SQ003comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [eos] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "gfdfdfdf",
+        "456"
+      ]
+    },
+    "234479X1479X17442SQ004comment": {
+      "code": "q30[SQ004comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [et] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17442SQ005comment": {
+      "code": "q30[SQ005comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [accusamus] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17442SQ006comment": {
+      "code": "q30[SQ006comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [et] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "ytyty"
+      ]
+    },
+    "234479X1479X17442SQ007comment": {
+      "code": "q30[SQ007comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [iusto] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "hghghghgh"
+      ]
+    },
+    "234479X1479X17442SQ008comment": {
+      "code": "q30[SQ008comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [odio] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "8765"
+      ]
+    },
+    "234479X1479X17442SQ009comment": {
+      "code": "q30[SQ009comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [dignissimos] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17442SQ010comment": {
+      "code": "q30[SQ010comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [ducimus] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "lklklklklk"
+      ]
+    },
+    "234479X1479X17442SQ011comment": {
+      "code": "q30[SQ011comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [qui] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "0897",
+        "poiuy"
+      ]
+    },
+    "234479X1479X17442SQ012comment": {
+      "code": "q30[SQ012comment]",
+      "text": "Lorem ipsum dolor sit amet Q30? [blanditiis] [Comment]",
+      "type": "P",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": []
+    },
+    "234479X1479X17442other": {
+      "code": "q30[other]",
+      "text": "Lorem ipsum dolor sit amet Q30? [Other]",
+      "type": "other",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "1234567890",
+        "8675"
+      ]
+    }
+  },
+  "Text questions": {
+    "234479X1480X17455": {
+      "code": "q31",
+      "text": "Sed ut perspiciatis unde omnis Q31?",
+      "type": "S",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "mnbvcxz",
+        "tyuio",
+        "plmnhtfcxawdv"
+      ]
+    },
+    "234479X1480X17456": {
+      "code": "q32",
+      "text": "Sed ut perspiciatis unde omnis Q32?",
+      "type": "S",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "0987654321",
+        "76543",
+        "876543"
+      ]
+    },
+    "234479X1480X17457": {
+      "code": "q33",
+      "text": "Neque porro quisquam est, qui dolorem Q33?",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "SQ001": {
+          "text": "At",
+          "N": 3,
+          "%": 14.29
+        },
+        "SQ002": {
+          "text": "vero",
+          "N": 3,
+          "%": 14.29
+        },
+        "SQ003": {
+          "text": "eos",
+          "N": 2,
+          "%": 9.52
+        },
+        "SQ004": {
+          "text": "et",
+          "N": 1,
+          "%": 4.76
+        },
+        "SQ005": {
+          "text": "accusamus",
+          "N": 1,
+          "%": 4.76
+        },
+        "SQ006": {
+          "text": "et",
+          "N": 1,
+          "%": 4.76
+        },
+        "SQ007": {
+          "text": "iusto",
+          "N": 2,
+          "%": 9.52
+        },
+        "SQ008": {
+          "text": "odio",
+          "N": 1,
+          "%": 4.76
+        },
+        "SQ009": {
+          "text": "dignissimos",
+          "N": 2,
+          "%": 9.52
+        },
+        "SQ010": {
+          "text": "ducimus",
+          "N": 1,
+          "%": 4.76
+        },
+        "SQ011": {
+          "text": "qui",
+          "N": 2,
+          "%": 9.52
+        },
+        "SQ012": {
+          "text": "blanditiis",
+          "N": 2,
+          "%": 9.52
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 21,
+          "%": 100
+        }
+      }
+    },
+    "234479X1480X17457SQ001": {
+      "code": "q33[SQ001]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [At]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "q",
+        "ewurhi",
+        "qwe"
+      ]
+    },
+    "234479X1480X17457SQ002": {
+      "code": "q33[SQ002]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [vero]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "w",
+        "wefjdg",
+        "ewrtt"
+      ]
+    },
+    "234479X1480X17457SQ003": {
+      "code": "q33[SQ003]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [eos]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "e",
+        "tuyuok"
+      ]
+    },
+    "234479X1480X17457SQ004": {
+      "code": "q33[SQ004]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [et]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "r"
+      ]
+    },
+    "234479X1480X17457SQ005": {
+      "code": "q33[SQ005]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [accusamus]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "t"
+      ]
+    },
+    "234479X1480X17457SQ006": {
+      "code": "q33[SQ006]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [et]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "y"
+      ]
+    },
+    "234479X1480X17457SQ007": {
+      "code": "q33[SQ007]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [iusto]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "u",
+        "rgdfgdfdfhngn"
+      ]
+    },
+    "234479X1480X17457SQ008": {
+      "code": "q33[SQ008]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [odio]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "i"
+      ]
+    },
+    "234479X1480X17457SQ009": {
+      "code": "q33[SQ009]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [dignissimos]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "o",
+        "drrgtdhgfhnjgfn"
+      ]
+    },
+    "234479X1480X17457SQ010": {
+      "code": "q33[SQ010]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [ducimus]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "p"
+      ]
+    },
+    "234479X1480X17457SQ011": {
+      "code": "q33[SQ011]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [qui]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "l",
+        "dfgdfgdfhnh"
+      ]
+    },
+    "234479X1480X17457SQ012": {
+      "code": "q33[SQ012]",
+      "text": "Neque porro quisquam est, qui dolorem Q33? [blanditiis]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "k",
+        "uttgh"
+      ]
+    },
+    "234479X1480X17471": {
+      "code": "q34",
+      "text": "Neque porro quisquam est, qui dolorem Q34?",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "SQ001": {
+          "text": "At",
+          "N": 3,
+          "%": 12.5
+        },
+        "SQ002": {
+          "text": "vero",
+          "N": 3,
+          "%": 12.5
+        },
+        "SQ003": {
+          "text": "eos",
+          "N": 1,
+          "%": 4.17
+        },
+        "SQ004": {
+          "text": "et",
+          "N": 1,
+          "%": 4.17
+        },
+        "SQ005": {
+          "text": "accusamus",
+          "N": 3,
+          "%": 12.5
+        },
+        "SQ006": {
+          "text": "et",
+          "N": 2,
+          "%": 8.33
+        },
+        "SQ007": {
+          "text": "iusto",
+          "N": 2,
+          "%": 8.33
+        },
+        "SQ008": {
+          "text": "odio",
+          "N": 1,
+          "%": 4.17
+        },
+        "SQ009": {
+          "text": "dignissimos",
+          "N": 3,
+          "%": 12.5
+        },
+        "SQ010": {
+          "text": "ducimus",
+          "N": 1,
+          "%": 4.17
+        },
+        "SQ011": {
+          "text": "qui",
+          "N": 2,
+          "%": 8.33
+        },
+        "SQ012": {
+          "text": "blanditiis",
+          "N": 2,
+          "%": 8.33
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 24,
+          "%": 100
+        }
+      }
+    },
+    "234479X1480X17471SQ001": {
+      "code": "q34[SQ001]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [At]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "1",
+        "54",
+        "765"
+      ]
+    },
+    "234479X1480X17471SQ002": {
+      "code": "q34[SQ002]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [vero]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "2",
+        "897",
+        "34"
+      ]
+    },
+    "234479X1480X17471SQ003": {
+      "code": "q34[SQ003]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [eos]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "3"
+      ]
+    },
+    "234479X1480X17471SQ004": {
+      "code": "q34[SQ004]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [et]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "4"
+      ]
+    },
+    "234479X1480X17471SQ005": {
+      "code": "q34[SQ005]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [accusamus]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "5",
+        "31325",
+        "76544"
+      ]
+    },
+    "234479X1480X17471SQ006": {
+      "code": "q34[SQ006]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [et]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "6",
+        "5657"
+      ]
+    },
+    "234479X1480X17471SQ007": {
+      "code": "q34[SQ007]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [iusto]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "7",
+        "523"
+      ]
+    },
+    "234479X1480X17471SQ008": {
+      "code": "q34[SQ008]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [odio]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "8"
+      ]
+    },
+    "234479X1480X17471SQ009": {
+      "code": "q34[SQ009]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [dignissimos]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "9",
+        "3254",
+        "6443"
+      ]
+    },
+    "234479X1480X17471SQ010": {
+      "code": "q34[SQ010]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [ducimus]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "10"
+      ]
+    },
+    "234479X1480X17471SQ011": {
+      "code": "q34[SQ011]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [qui]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "11",
+        "7725"
+      ]
+    },
+    "234479X1480X17471SQ012": {
+      "code": "q34[SQ012]",
+      "text": "Neque porro quisquam est, qui dolorem Q34? [blanditiis]",
+      "type": "Q",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": [
+        "12",
+        "323"
+      ]
+    },
+    "234479X1480X17484": {
+      "code": "q35",
+      "text": "Ut enim ad minima veniam Q35?",
+      "type": "U",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "mnbvcxz asdfghjkl poiuytrewq",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+      ]
+    },
+    "234479X1480X17485": {
+      "code": "q36",
+      "text": "At vero eos et accusamus et iusto Q36?",
+      "type": "T",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "mnbvcxz asdfghjkl poiuytrewq",
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    }
+  }
+}

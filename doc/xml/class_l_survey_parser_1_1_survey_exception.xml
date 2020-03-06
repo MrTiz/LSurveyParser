@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_l_survey_parser_1_1_survey_exception" kind="class" language="PHP" prot="public">
+    <compoundname>LSurveyParser::SurveyException</compoundname>
+    <basecompoundref refid="class_l_survey_parser_1_1_l_survey_parser_exception" prot="public" virt="non-virtual">LSurveyParserException</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SurveyException</label>
+        <link refid="class_l_survey_parser_1_1_survey_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>LSurveyParserException</label>
+        <link refid="class_l_survey_parser_1_1_l_survey_parser_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SurveyException</label>
+        <link refid="class_l_survey_parser_1_1_survey_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>LSurveyParserException</label>
+        <link refid="class_l_survey_parser_1_1_l_survey_parser_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="LSurveyParser/src/Exceptions/SurveyException.php" line="33" column="1" bodyfile="LSurveyParser/src/Exceptions/SurveyException.php" bodystart="32" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1a7949acdaecc70b9f035c12a7069db132" prot="protected" virt="non-virtual"><scope>LSurveyParser::SurveyException</scope><name>$code</name></member>
+      <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="protected" virt="non-virtual"><scope>LSurveyParser::SurveyException</scope><name>$message</name></member>
+      <member refid="class_l_survey_parser_1_1_l_survey_parser_exception_1a0c373deae7212b3fabcbbf3ce9a5794d" prot="public" virt="non-virtual"><scope>LSurveyParser::SurveyException</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

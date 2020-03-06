@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_8a3cd0a2bcd88a503318ed9f84208684" kind="dir">
+    <compoundname>LSurveyParser</compoundname>
+    <innerdir refid="dir_cd1b90e6be6b2a24ccc9bb0485cbb09e">LSurveyParser/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LSurveyParser/"/>
+  </compounddef>
+</doxygen>

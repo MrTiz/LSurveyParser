@@ -1,0 +1,41 @@
+{
+    "234479X1477X17390SQ001": {
+        "code": "q19[SQ001]",
+        "text": "Nemo enim ipsam voluptatem Q19? [quia voluptas sit]",
+        "type": "K",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": [
+            "789.0000000000",
+            "1.0000000000",
+            "456.0000000000"
+        ]
+    },
+    "234479X1477X17390SQ002": {
+        "code": "q19[SQ002]",
+        "text": "Nemo enim ipsam voluptatem Q19? [aspernatur aut odit]",
+        "type": "K",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": [
+            "654.0000000000",
+            "55.0000000000",
+            "789.0000000000"
+        ]
+    },
+    "234479X1477X17390SQ003": {
+        "code": "q19[SQ003]",
+        "text": "Nemo enim ipsam voluptatem Q19? [aut fugit]",
+        "type": "K",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": [
+            "123.0000000000",
+            "26.0000000000",
+            "0.0000000000"
+        ]
+    }
+}

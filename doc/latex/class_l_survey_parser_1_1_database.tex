@@ -1,0 +1,73 @@
+\hypertarget{class_l_survey_parser_1_1_database}{}\doxysection{Database Class Reference}
+\label{class_l_survey_parser_1_1_database}\index{Database@{Database}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_l_survey_parser_1_1_database_a577322cc5fbe08f08fa107e6d8a6b62c}{query}} (\$sql, \$fetch\+All=true, \$fetch\+Style=P\+D\+O\+::\+F\+E\+T\+C\+H\+\_\+\+A\+S\+S\+OC)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_l_survey_parser_1_1_database_ac93fbec81f07e5d15f80db907e63dc10}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_l_survey_parser_1_1_database_ac93fbec81f07e5d15f80db907e63dc10}\label{class_l_survey_parser_1_1_database_ac93fbec81f07e5d15f80db907e63dc10}} 
+\index{Database@{Database}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!Database@{Database}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily static get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Singleton
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+Database$\vert$null 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_l_survey_parser_1_1_survey_exception}{Survey\+Exception}}} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_l_survey_parser_1_1_database_a577322cc5fbe08f08fa107e6d8a6b62c}\label{class_l_survey_parser_1_1_database_a577322cc5fbe08f08fa107e6d8a6b62c}} 
+\index{Database@{Database}!query@{query}}
+\index{query@{query}!Database@{Database}}
+\doxysubsubsection{\texorpdfstring{query()}{query()}}
+{\footnotesize\ttfamily query (\begin{DoxyParamCaption}\item[{}]{\$sql,  }\item[{}]{\$fetch\+All = {\ttfamily true},  }\item[{}]{\$fetch\+Style = {\ttfamily PDO\+:\+:FETCH\+\_\+ASSOC} }\end{DoxyParamCaption})}
+
+Executes an S\+QL statement and fetch the result set.
+
+\begin{DoxyAuthor}{Author}
+Tiziano Marra \href{https://github.com/MrTiz9}{\texttt{ https\+://github.\+com/\+Mr\+Tiz9}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+1.\+0
+\end{DoxySince}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & S\+QL query to execute \\
+\hline
+bool & {\em \$fetch\+All} & Fetch all the results or only the first ones? \\
+\hline
+int & {\em \$fetch\+Style} & How the rows will be returned\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array$\vert$mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em P\+D\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+L\+Survey\+Parser/src/\+Database/Database.\+php\end{DoxyCompactItemize}

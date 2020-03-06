@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="interface_l_survey_parser_1_1_i_l_survey_parser" kind="interface" language="PHP" prot="public">
+    <compoundname>LSurveyParser::ILSurveyParser</compoundname>
+    <derivedcompoundref refid="class_l_survey_parser_1_1_parser" prot="public" virt="non-virtual">Parser</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1afb76b3a836077895de57218561df3a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOnlyQuestions</definition>
+        <argsstring>($sid, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>getOnlyQuestions</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1afb76b3a836077895de57218561df3a2a">getOnlyQuestions</reimplementedby>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the questions only, excluding the answers.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="61" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1a4241d6cea6e848010fab6c6230ddd854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQuestionsByIDs</definition>
+        <argsstring>($sid, $IDs, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>parseQuestionsByIDs</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1a4241d6cea6e848010fab6c6230ddd854">parseQuestionsByIDs</reimplementedby>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$IDs</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the survey responses using the IDs.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$IDs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of IDs </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="81" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1a0eff5c1e0fb3363949f1c30fe06b8059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQuestionsByTokens</definition>
+        <argsstring>($sid, $tokens, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>parseQuestionsByTokens</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1a0eff5c1e0fb3363949f1c30fe06b8059">parseQuestionsByTokens</reimplementedby>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$tokens</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the survey responses using the tokens.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$tokens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of tokens </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="101" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1a56ae3a3d2128212a1af597f508f1a1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseQuestionsByDates</definition>
+        <argsstring>($sid, $from, $to, $lang=null, $qList=[], $qToExcl=[])</argsstring>
+        <name>parseQuestionsByDates</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1a56ae3a3d2128212a1af597f508f1a1df">parseQuestionsByDates</reimplementedby>
+        <param>
+          <declname>$sid</declname>
+        </param>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <param>
+          <declname>$to</declname>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$qList</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$qToExcl</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse the survey responses using the dates.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$sid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Survey ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start date </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End date </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) Survey language </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be considered </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$qToExcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Optional) List of questions to be excluded</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="122" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1af68017d37ebb254cd84c881d8c941014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCutoff</definition>
+        <argsstring>($cutoff=0)</argsstring>
+        <name>setCutoff</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1af68017d37ebb254cd84c881d8c941014">setCutoff</reimplementedby>
+        <param>
+          <declname>$cutoff</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the cutoff.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cutoff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="135" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1acd65c5111df5334454242bcb93dd9a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDateCol</definition>
+        <argsstring>($dateCol=&apos;submitdate&apos;)</argsstring>
+        <name>setDateCol</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1acd65c5111df5334454242bcb93dd9a62">setDateCol</reimplementedby>
+        <param>
+          <declname>$dateCol</declname>
+          <defval>&apos;submitdate&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set column name that should be used to get response IDs using dates.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$dateCol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Column name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="148" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_l_survey_parser_1_1_i_l_survey_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setStripTags</definition>
+        <argsstring>($stripTags=true)</argsstring>
+        <name>setStripTags</name>
+        <reimplementedby refid="class_l_survey_parser_1_1_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e">setStripTags</reimplementedby>
+        <param>
+          <declname>$stripTags</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strip the HTML tags from the questions and answers texts.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$stripTags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/ILSurveyParser.php" line="161" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ILSurveyParser</label>
+        <link refid="interface_l_survey_parser_1_1_i_l_survey_parser"/>
+      </node>
+      <node id="2">
+        <label>Parser</label>
+        <link refid="class_l_survey_parser_1_1_parser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="LSurveyParser/src/ILSurveyParser.php" line="45" column="1" bodyfile="LSurveyParser/src/ILSurveyParser.php" bodystart="44" bodyend="162"/>
+    <listofallmembers>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1afb76b3a836077895de57218561df3a2a" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>getOnlyQuestions</name></member>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a56ae3a3d2128212a1af597f508f1a1df" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>parseQuestionsByDates</name></member>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a4241d6cea6e848010fab6c6230ddd854" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>parseQuestionsByIDs</name></member>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a0eff5c1e0fb3363949f1c30fe06b8059" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>parseQuestionsByTokens</name></member>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1af68017d37ebb254cd84c881d8c941014" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>setCutoff</name></member>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1acd65c5111df5334454242bcb93dd9a62" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>setDateCol</name></member>
+      <member refid="interface_l_survey_parser_1_1_i_l_survey_parser_1a7d123a1a1fd89a18a92ab9fa2aa21c0e" prot="public" virt="non-virtual"><scope>LSurveyParser::ILSurveyParser</scope><name>setStripTags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

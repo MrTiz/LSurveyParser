@@ -1,0 +1,218 @@
+{
+    "234479X1480X17457": {
+        "code": "q33",
+        "text": "Neque porro quisquam est, qui dolorem Q33?",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "SQ001": {
+                "text": "At",
+                "N": 3,
+                "%": 14.29
+            },
+            "SQ002": {
+                "text": "vero",
+                "N": 3,
+                "%": 14.29
+            },
+            "SQ003": {
+                "text": "eos",
+                "N": 2,
+                "%": 9.52
+            },
+            "SQ004": {
+                "text": "et",
+                "N": 1,
+                "%": 4.76
+            },
+            "SQ005": {
+                "text": "accusamus",
+                "N": 1,
+                "%": 4.76
+            },
+            "SQ006": {
+                "text": "et",
+                "N": 1,
+                "%": 4.76
+            },
+            "SQ007": {
+                "text": "iusto",
+                "N": 2,
+                "%": 9.52
+            },
+            "SQ008": {
+                "text": "odio",
+                "N": 1,
+                "%": 4.76
+            },
+            "SQ009": {
+                "text": "dignissimos",
+                "N": 2,
+                "%": 9.52
+            },
+            "SQ010": {
+                "text": "ducimus",
+                "N": 1,
+                "%": 4.76
+            },
+            "SQ011": {
+                "text": "qui",
+                "N": 2,
+                "%": 9.52
+            },
+            "SQ012": {
+                "text": "blanditiis",
+                "N": 2,
+                "%": 9.52
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 21,
+                "%": 100
+            }
+        }
+    },
+    "234479X1480X17457SQ001": {
+        "code": "q33[SQ001]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [At]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "q",
+            "ewurhi",
+            "qwe"
+        ]
+    },
+    "234479X1480X17457SQ002": {
+        "code": "q33[SQ002]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [vero]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "w",
+            "wefjdg",
+            "ewrtt"
+        ]
+    },
+    "234479X1480X17457SQ003": {
+        "code": "q33[SQ003]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [eos]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "e",
+            "tuyuok"
+        ]
+    },
+    "234479X1480X17457SQ004": {
+        "code": "q33[SQ004]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [et]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "r"
+        ]
+    },
+    "234479X1480X17457SQ005": {
+        "code": "q33[SQ005]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [accusamus]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "t"
+        ]
+    },
+    "234479X1480X17457SQ006": {
+        "code": "q33[SQ006]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [et]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "y"
+        ]
+    },
+    "234479X1480X17457SQ007": {
+        "code": "q33[SQ007]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [iusto]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "u",
+            "rgdfgdfdfhngn"
+        ]
+    },
+    "234479X1480X17457SQ008": {
+        "code": "q33[SQ008]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [odio]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "i"
+        ]
+    },
+    "234479X1480X17457SQ009": {
+        "code": "q33[SQ009]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [dignissimos]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "o",
+            "drrgtdhgfhnjgfn"
+        ]
+    },
+    "234479X1480X17457SQ010": {
+        "code": "q33[SQ010]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [ducimus]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "p"
+        ]
+    },
+    "234479X1480X17457SQ011": {
+        "code": "q33[SQ011]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [qui]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "l",
+            "dfgdfgdfhnh"
+        ]
+    },
+    "234479X1480X17457SQ012": {
+        "code": "q33[SQ012]",
+        "text": "Neque porro quisquam est, qui dolorem Q33? [blanditiis]",
+        "type": "Q",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "k",
+            "uttgh"
+        ]
+    }
+}

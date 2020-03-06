@@ -1,0 +1,78 @@
+{
+    "234479X1476X17348SQ001_SQ001": {
+        "code": "q4[SQ001_SQ001]",
+        "text": "Neque porro quisquam Q4? [est qui dolorem][dolor]",
+        "type": ";",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "qwerty",
+            "qw",
+            "qwert"
+        ]
+    },
+    "234479X1476X17348SQ001_SQ002": {
+        "code": "q4[SQ001_SQ002]",
+        "text": "Neque porro quisquam Q4? [est qui dolorem][sit]",
+        "type": ";",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "uiop",
+            "er",
+            "yuiop"
+        ]
+    },
+    "234479X1476X17348SQ001_SQ003": {
+        "code": "q4[SQ001_SQ003]",
+        "text": "Neque porro quisquam Q4? [est qui dolorem][amet]",
+        "type": ";",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "lkjh",
+            "lkjh"
+        ]
+    },
+    "234479X1476X17348SQ002_SQ001": {
+        "code": "q4[SQ002_SQ001]",
+        "text": "Neque porro quisquam Q4? [ipsum quia][dolor]",
+        "type": ";",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "bnm",
+            "bnm"
+        ]
+    },
+    "234479X1476X17348SQ002_SQ002": {
+        "code": "q4[SQ002_SQ002]",
+        "text": "Neque porro quisquam Q4? [ipsum quia][sit]",
+        "type": ";",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "zxcv",
+            "ds",
+            "zxcv"
+        ]
+    },
+    "234479X1476X17348SQ002_SQ003": {
+        "code": "q4[SQ002_SQ003]",
+        "text": "Neque porro quisquam Q4? [ipsum quia][amet]",
+        "type": ";",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "gfdsa",
+            "bcfx",
+            "gfdsa"
+        ]
+    }
+}

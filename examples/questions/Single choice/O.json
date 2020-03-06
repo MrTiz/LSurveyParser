@@ -1,0 +1,50 @@
+{
+    "234479X1478X17399": {
+        "code": "q25",
+        "text": "Temporibus autem quibusdam Q25?",
+        "type": "O",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "officiis",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "debitis",
+                "N": 1,
+                "%": 33.33
+            },
+            "A3": {
+                "text": "necessitatibus",
+                "N": 1,
+                "%": 33.33
+            },
+            "A4": {
+                "text": "eveniet",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1478X17399comment": {
+        "code": "q25[comment]",
+        "text": "Temporibus autem quibusdam Q25? [Comment]",
+        "type": "O",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "mnbvcxz",
+            "asdfghjkl",
+            "yuiop"
+        ]
+    }
+}

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_l_survey_parser_1_1_database" kind="class" language="PHP" prot="public">
+    <compoundname>LSurveyParser::Database</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_database_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$instance</definition>
+        <argsstring></argsstring>
+        <name>$instance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Database/Database.php" line="38" column="20" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_l_survey_parser_1_1_database_1a0d9c79b9b86b3f5891c6d3892f12c6a0" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$connection</definition>
+        <argsstring></argsstring>
+        <name>$connection</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Database/Database.php" line="41" column="13" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_l_survey_parser_1_1_database_1a095c5d389db211932136b53f25f39685" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_l_survey_parser_1_1_database" kindref="compound">Database</ref> constructor.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Database/Database.php" line="54" column="22" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="54" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_survey_parser_1_1_database_1a9025a2c7cd98101f57f02dcbebfe21f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkTablePrefix</definition>
+        <argsstring>($dbName, $tablePrefix)</argsstring>
+        <name>checkTablePrefix</name>
+        <param>
+          <declname>$dbName</declname>
+        </param>
+        <param>
+          <declname>$tablePrefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether table prefix is correct for the selected database</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Database/Database.php" line="108" column="22" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="108" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_l_survey_parser_1_1_database_1ac93fbec81f07e5d15f80db907e63dc10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Singleton</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<simplesect kind="return"><para>Database|null </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Database/Database.php" line="83" column="28" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="83" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_survey_parser_1_1_database_1a577322cc5fbe08f08fa107e6d8a6b62c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>query</definition>
+        <argsstring>($sql, $fetchAll=true, $fetchStyle=PDO::FETCH_ASSOC)</argsstring>
+        <name>query</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <param>
+          <declname>$fetchAll</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$fetchStyle</declname>
+          <defval>PDO::FETCH_ASSOC</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Executes an SQL statement and fetch the result set.</para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>1.0</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$sql</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SQL query to execute </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$fetchAll</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Fetch all the results or only the first ones? </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$fetchStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How the rows will be returned</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|mixed </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>PDOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LSurveyParser/src/Database/Database.php" line="136" column="21" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="136" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LSurveyParser/src/Database/Database.php" line="36" column="1" bodyfile="LSurveyParser/src/Database/Database.php" bodystart="35" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_l_survey_parser_1_1_database_1a0d9c79b9b86b3f5891c6d3892f12c6a0" prot="private" virt="non-virtual"><scope>LSurveyParser::Database</scope><name>$connection</name></member>
+      <member refid="class_l_survey_parser_1_1_database_1ad9d7ce33ebb142b70e58b68052ca0ea8" prot="private" virt="non-virtual"><scope>LSurveyParser::Database</scope><name>$instance</name></member>
+      <member refid="class_l_survey_parser_1_1_database_1a095c5d389db211932136b53f25f39685" prot="private" virt="non-virtual"><scope>LSurveyParser::Database</scope><name>__construct</name></member>
+      <member refid="class_l_survey_parser_1_1_database_1a9025a2c7cd98101f57f02dcbebfe21f7" prot="private" virt="non-virtual"><scope>LSurveyParser::Database</scope><name>checkTablePrefix</name></member>
+      <member refid="class_l_survey_parser_1_1_database_1ac93fbec81f07e5d15f80db907e63dc10" prot="public" virt="non-virtual"><scope>LSurveyParser::Database</scope><name>getInstance</name></member>
+      <member refid="class_l_survey_parser_1_1_database_1a577322cc5fbe08f08fa107e6d8a6b62c" prot="public" virt="non-virtual"><scope>LSurveyParser::Database</scope><name>query</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,241 @@
+{
+  "Arrays": {
+    "234479X1476X17332SQ001": {
+      "code": "q1[SQ001]",
+      "text": "Lorem ipsum Q1? [consectetur adipiscing elit]",
+      "type": "F",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "ipsum",
+          "N": 2,
+          "%": 66.67
+        },
+        "A2": {
+          "text": "dolor",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "sit",
+          "N": 1,
+          "%": 33.33
+        },
+        "A4": {
+          "text": "amet",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17332SQ003": {
+      "code": "q1[SQ003]",
+      "text": "Lorem ipsum Q1? [ut labore et dolore magna aliqua]",
+      "type": "F",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": {
+        "A1": {
+          "text": "ipsum",
+          "N": 1,
+          "%": 33.33
+        },
+        "A2": {
+          "text": "dolor",
+          "N": 0,
+          "%": 0
+        },
+        "A3": {
+          "text": "sit",
+          "N": 2,
+          "%": 66.67
+        },
+        "A4": {
+          "text": "amet",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ001_SQ002": {
+      "code": "q3[SQ001_SQ002]",
+      "text": "At vero eos et accusamus Q3? [et iusto odio][deleniti]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "2": {
+          "text": "2",
+          "N": 1,
+          "%": 50
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17340SQ002_SQ003": {
+      "code": "q3[SQ002_SQ003]",
+      "text": "At vero eos et accusamus Q3? [dignissimos ducimus][atque]",
+      "type": ":",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "6": {
+          "text": "6",
+          "N": 1,
+          "%": 50
+        },
+        "10": {
+          "text": "10",
+          "N": 1,
+          "%": 50
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17348SQ001_SQ003": {
+      "code": "q4[SQ001_SQ003]",
+      "text": "Neque porro quisquam Q4? [est qui dolorem][amet]",
+      "type": ";",
+      "mandatory": false,
+      "numonly": false,
+      "hidden": false,
+      "answers": [
+        "lkjh",
+        "lkjh"
+      ]
+    },
+    "234479X1476X17360SQ002": {
+      "code": "q6[SQ002]",
+      "text": "Lorem ipsum dolor Q6? [amet]",
+      "type": "B",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 0,
+          "%": 0
+        },
+        "2": {
+          "text": "2",
+          "N": 2,
+          "%": 100
+        },
+        "3": {
+          "text": "3",
+          "N": 0,
+          "%": 0
+        },
+        "4": {
+          "text": "4",
+          "N": 0,
+          "%": 0
+        },
+        "5": {
+          "text": "5",
+          "N": 0,
+          "%": 0
+        },
+        "6": {
+          "text": "6",
+          "N": 0,
+          "%": 0
+        },
+        "7": {
+          "text": "7",
+          "N": 0,
+          "%": 0
+        },
+        "8": {
+          "text": "8",
+          "N": 0,
+          "%": 0
+        },
+        "9": {
+          "text": "9",
+          "N": 0,
+          "%": 0
+        },
+        "10": {
+          "text": "10",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 2,
+          "%": 100
+        }
+      }
+    },
+    "234479X1476X17366SQ003": {
+      "code": "q7[SQ003]",
+      "text": "Sed ut perspiciatis unde omnis Q7? [error]",
+      "type": "A",
+      "mandatory": false,
+      "numonly": true,
+      "hidden": false,
+      "answers": {
+        "1": {
+          "text": "1",
+          "N": 1,
+          "%": 33.33
+        },
+        "2": {
+          "text": "2",
+          "N": 0,
+          "%": 0
+        },
+        "3": {
+          "text": "3",
+          "N": 1,
+          "%": 33.33
+        },
+        "4": {
+          "text": "4",
+          "N": 1,
+          "%": 33.33
+        },
+        "5": {
+          "text": "5",
+          "N": 0,
+          "%": 0
+        },
+        "_X_": {
+          "text": "Total",
+          "N": 3,
+          "%": 100
+        }
+      }
+    }
+  }
+}

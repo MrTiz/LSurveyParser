@@ -1,0 +1,27 @@
+{
+    "234479X1477X17388": {
+        "code": "q17",
+        "text": "Ut enim ad minima veniam Q17?",
+        "type": "G",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "M": {
+                "text": "Male",
+                "N": 1,
+                "%": 33.33
+            },
+            "F": {
+                "text": "Female",
+                "N": 2,
+                "%": 66.67
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

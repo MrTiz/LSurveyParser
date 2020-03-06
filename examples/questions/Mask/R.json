@@ -1,0 +1,352 @@
+{
+    "234479X1477X173841": {
+        "code": "q13[1]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 1]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 2,
+                "%": 66.67
+            },
+            "A2": {
+                "text": "alias",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 0,
+                "%": 0
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 0,
+                "%": 0
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1477X173842": {
+        "code": "q13[2]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 2]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "alias",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 1,
+                "%": 33.33
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 1,
+                "%": 33.33
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 1,
+                "%": 33.33
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1477X173843": {
+        "code": "q13[3]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 3]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "alias",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 1,
+                "%": 33.33
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 1,
+                "%": 33.33
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 1,
+                "%": 33.33
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1477X173844": {
+        "code": "q13[4]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 4]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "alias",
+                "N": 1,
+                "%": 50
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 0,
+                "%": 0
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 1,
+                "%": 50
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1477X173845": {
+        "code": "q13[5]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 5]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "alias",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 0,
+                "%": 0
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 0,
+                "%": 0
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 0,
+                "%": 100
+            }
+        }
+    },
+    "234479X1477X173846": {
+        "code": "q13[6]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 6]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "alias",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 0,
+                "%": 0
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 0,
+                "%": 0
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 0,
+                "%": 100
+            }
+        }
+    },
+    "234479X1477X173847": {
+        "code": "q13[7]",
+        "text": "Ut aut reiciendis voluptatibus Q13? [Ranking 7]",
+        "type": "R",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "maiores",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "alias",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "consequatur",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "perferendis",
+                "N": 0,
+                "%": 0
+            },
+            "A5": {
+                "text": "doloribus",
+                "N": 0,
+                "%": 0
+            },
+            "A6": {
+                "text": "asperiores",
+                "N": 0,
+                "%": 0
+            },
+            "A7": {
+                "text": "repellat",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 0,
+                "%": 100
+            }
+        }
+    }
+}

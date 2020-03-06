@@ -1,0 +1,215 @@
+{
+    "234479X1479X17428": {
+        "code": "q29",
+        "text": "Lorem ipsum dolor sit amet Q29?",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "SQ001": {
+                "text": "At",
+                "N": 2,
+                "%": 25
+            },
+            "SQ002": {
+                "text": "vero",
+                "N": 1,
+                "%": 12.5
+            },
+            "SQ003": {
+                "text": "eos",
+                "N": 0,
+                "%": 0
+            },
+            "SQ004": {
+                "text": "et",
+                "N": 0,
+                "%": 0
+            },
+            "SQ005": {
+                "text": "accusamus",
+                "N": 0,
+                "%": 0
+            },
+            "SQ006": {
+                "text": "et",
+                "N": 0,
+                "%": 0
+            },
+            "SQ007": {
+                "text": "iusto",
+                "N": 2,
+                "%": 25
+            },
+            "SQ008": {
+                "text": "odio",
+                "N": 0,
+                "%": 0
+            },
+            "SQ009": {
+                "text": "dignissimos",
+                "N": 1,
+                "%": 12.5
+            },
+            "SQ010": {
+                "text": "ducimus",
+                "N": 1,
+                "%": 12.5
+            },
+            "SQ011": {
+                "text": "qui",
+                "N": 0,
+                "%": 0
+            },
+            "SQ012": {
+                "text": "blanditiis",
+                "N": 1,
+                "%": 12.5
+            },
+            "other": {
+                "text": "Other",
+                "N": 1,
+                "%": 12.5
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 8,
+                "%": 100
+            }
+        }
+    },
+    "234479X1479X17428SQ001comment": {
+        "code": "q29[SQ001comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [At] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "poiuytrewq",
+            "yuiop"
+        ]
+    },
+    "234479X1479X17428SQ002comment": {
+        "code": "q29[SQ002comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [vero] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "iui"
+        ]
+    },
+    "234479X1479X17428SQ003comment": {
+        "code": "q29[SQ003comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [eos] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": []
+    },
+    "234479X1479X17428SQ004comment": {
+        "code": "q29[SQ004comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [et] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": []
+    },
+    "234479X1479X17428SQ005comment": {
+        "code": "q29[SQ005comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [accusamus] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": []
+    },
+    "234479X1479X17428SQ006comment": {
+        "code": "q29[SQ006comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [et] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": []
+    },
+    "234479X1479X17428SQ007comment": {
+        "code": "q29[SQ007comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [iusto] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "tyhbm",
+            "iuyrr"
+        ]
+    },
+    "234479X1479X17428SQ008comment": {
+        "code": "q29[SQ008comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [odio] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": []
+    },
+    "234479X1479X17428SQ009comment": {
+        "code": "q29[SQ009comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [dignissimos] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "lkjhgfds"
+        ]
+    },
+    "234479X1479X17428SQ010comment": {
+        "code": "q29[SQ010comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [ducimus] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "uytrt"
+        ]
+    },
+    "234479X1479X17428SQ011comment": {
+        "code": "q29[SQ011comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [qui] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": []
+    },
+    "234479X1479X17428SQ012comment": {
+        "code": "q29[SQ012comment]",
+        "text": "Lorem ipsum dolor sit amet Q29? [blanditiis] [Comment]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "rewqas"
+        ]
+    },
+    "234479X1479X17428other": {
+        "code": "q29[other]",
+        "text": "Lorem ipsum dolor sit amet Q29? [Other]",
+        "type": "P",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": [
+            "tgbhyujnmikolp"
+        ]
+    }
+}

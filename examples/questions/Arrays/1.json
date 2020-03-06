@@ -1,0 +1,197 @@
+{
+    "234479X1476X17370SQ001#0": {
+        "code": "q8[SQ001][0]",
+        "text": "Ut enim ad minima veniam Q8? [consequatur][Scale 1]",
+        "type": "1",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "quis nostrum",
+                "N": 2,
+                "%": 66.67
+            },
+            "A2": {
+                "text": "exercitationem ullam",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "corporis suscipit",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17370SQ001#1": {
+        "code": "q8[SQ001][1]",
+        "text": "Ut enim ad minima veniam Q8? [consequatur][Scale 2]",
+        "type": "1",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "laboriosam",
+                "N": 0,
+                "%": 0
+            },
+            "A2": {
+                "text": "nisi ut",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "aliquid",
+                "N": 1,
+                "%": 50
+            },
+            "A4": {
+                "text": "commodi",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17370SQ002#0": {
+        "code": "q8[SQ002][0]",
+        "text": "Ut enim ad minima veniam Q8? [Quis autem vel][Scale 1]",
+        "type": "1",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "quis nostrum",
+                "N": 1,
+                "%": 33.33
+            },
+            "A2": {
+                "text": "exercitationem ullam",
+                "N": 2,
+                "%": 66.67
+            },
+            "A3": {
+                "text": "corporis suscipit",
+                "N": 0,
+                "%": 0
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17370SQ002#1": {
+        "code": "q8[SQ002][1]",
+        "text": "Ut enim ad minima veniam Q8? [Quis autem vel][Scale 2]",
+        "type": "1",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "laboriosam",
+                "N": 1,
+                "%": 33.33
+            },
+            "A2": {
+                "text": "nisi ut",
+                "N": 1,
+                "%": 33.33
+            },
+            "A3": {
+                "text": "aliquid",
+                "N": 0,
+                "%": 0
+            },
+            "A4": {
+                "text": "commodi",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17370SQ003#0": {
+        "code": "q8[SQ003][0]",
+        "text": "Ut enim ad minima veniam Q8? [eum iure reprehenderit][Scale 1]",
+        "type": "1",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "quis nostrum",
+                "N": 1,
+                "%": 50
+            },
+            "A2": {
+                "text": "exercitationem ullam",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "corporis suscipit",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17370SQ003#1": {
+        "code": "q8[SQ003][1]",
+        "text": "Ut enim ad minima veniam Q8? [eum iure reprehenderit][Scale 2]",
+        "type": "1",
+        "mandatory": false,
+        "numonly": false,
+        "hidden": false,
+        "answers": {
+            "A1": {
+                "text": "laboriosam",
+                "N": 1,
+                "%": 33.33
+            },
+            "A2": {
+                "text": "nisi ut",
+                "N": 0,
+                "%": 0
+            },
+            "A3": {
+                "text": "aliquid",
+                "N": 1,
+                "%": 33.33
+            },
+            "A4": {
+                "text": "commodi",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    }
+}

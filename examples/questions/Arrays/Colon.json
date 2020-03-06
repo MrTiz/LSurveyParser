@@ -1,0 +1,317 @@
+{
+    "234479X1476X17340SQ001_SQ001": {
+        "code": "q3[SQ001_SQ001]",
+        "text": "At vero eos et accusamus Q3? [et iusto odio][voluptatum]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "1": {
+                "text": "1",
+                "N": 1,
+                "%": 33.33
+            },
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 33.33
+            },
+            "3": {
+                "text": "3",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ001_SQ002": {
+        "code": "q3[SQ001_SQ002]",
+        "text": "At vero eos et accusamus Q3? [et iusto odio][deleniti]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 50
+            },
+            "2": {
+                "text": "2",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ001_SQ003": {
+        "code": "q3[SQ001_SQ003]",
+        "text": "At vero eos et accusamus Q3? [et iusto odio][atque]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 33.33
+            },
+            "3": {
+                "text": "3",
+                "N": 1,
+                "%": 33.33
+            },
+            "8": {
+                "text": "8",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ001_SQ004": {
+        "code": "q3[SQ001_SQ004]",
+        "text": "At vero eos et accusamus Q3? [et iusto odio][corrupti]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 50
+            },
+            "4": {
+                "text": "4",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ002_SQ001": {
+        "code": "q3[SQ002_SQ001]",
+        "text": "At vero eos et accusamus Q3? [dignissimos ducimus][voluptatum]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 50
+            },
+            "8": {
+                "text": "8",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ002_SQ002": {
+        "code": "q3[SQ002_SQ002]",
+        "text": "At vero eos et accusamus Q3? [dignissimos ducimus][deleniti]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 33.33
+            },
+            "6": {
+                "text": "6",
+                "N": 1,
+                "%": 33.33
+            },
+            "7": {
+                "text": "7",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ002_SQ003": {
+        "code": "q3[SQ002_SQ003]",
+        "text": "At vero eos et accusamus Q3? [dignissimos ducimus][atque]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 50
+            },
+            "6": {
+                "text": "6",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ002_SQ004": {
+        "code": "q3[SQ002_SQ004]",
+        "text": "At vero eos et accusamus Q3? [dignissimos ducimus][corrupti]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "5": {
+                "text": "5",
+                "N": 2,
+                "%": 66.67
+            },
+            "9": {
+                "text": "9",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ003_SQ001": {
+        "code": "q3[SQ003_SQ001]",
+        "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][voluptatum]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "1": {
+                "text": "1",
+                "N": 1,
+                "%": 33.33
+            },
+            "5": {
+                "text": "5",
+                "N": 1,
+                "%": 33.33
+            },
+            "9": {
+                "text": "9",
+                "N": 1,
+                "%": 33.33
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 3,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ003_SQ002": {
+        "code": "q3[SQ003_SQ002]",
+        "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][deleniti]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 50
+            },
+            "6": {
+                "text": "6",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ003_SQ003": {
+        "code": "q3[SQ003_SQ003]",
+        "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][atque]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "10": {
+                "text": "10",
+                "N": 1,
+                "%": 50
+            },
+            "7": {
+                "text": "7",
+                "N": 1,
+                "%": 50
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 2,
+                "%": 100
+            }
+        }
+    },
+    "234479X1476X17340SQ003_SQ004": {
+        "code": "q3[SQ003_SQ004]",
+        "text": "At vero eos et accusamus Q3? [qui blanditiis praesentium][corrupti]",
+        "type": ":",
+        "mandatory": false,
+        "numonly": true,
+        "hidden": false,
+        "answers": {
+            "8": {
+                "text": "8",
+                "N": 1,
+                "%": 100
+            },
+            "_X_": {
+                "text": "Total",
+                "N": 1,
+                "%": 100
+            }
+        }
+    }
+}
