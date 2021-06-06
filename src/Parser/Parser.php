@@ -1,6 +1,6 @@
 <?php
 /**
- * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz9>.
+ * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz>.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. if not, see <https://www.gnu.org/licenses/>.
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @version 1.0
  */
 
@@ -30,7 +30,7 @@ use PDOException;
  * Class Parser
  * @package Parser
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @since   1.0
  */
 
@@ -79,7 +79,7 @@ class Parser implements ILSurveyParser
     /**
      * Parser constructor.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @throws PDOException|SurveyException
@@ -95,7 +95,7 @@ class Parser implements ILSurveyParser
     /**
      * Parse the questions only, excluding the answers.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param int    $sid       Survey ID
@@ -139,7 +139,7 @@ class Parser implements ILSurveyParser
     /**
      * Parse the survey responses using the IDs.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param int    $sid       Survey ID
@@ -188,7 +188,7 @@ class Parser implements ILSurveyParser
     /**
      * Parse the survey responses using the tokens.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param int    $sid       Survey ID
@@ -241,7 +241,7 @@ class Parser implements ILSurveyParser
     /**
      * Parse the survey responses using the dates.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param int    $sid       Survey ID
@@ -298,7 +298,7 @@ class Parser implements ILSurveyParser
     /**
      * Set the cutoff.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param int $cutoff
@@ -314,7 +314,7 @@ class Parser implements ILSurveyParser
     /**
      * Set column name that should be used to get response IDs using dates.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param string $dateCol   Column name
@@ -332,7 +332,7 @@ class Parser implements ILSurveyParser
     /**
      * Strip the HTML tags from the questions and answers texts.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param bool $stripTags
@@ -348,7 +348,7 @@ class Parser implements ILSurveyParser
     /**
      * Parse all types of known questions.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -553,7 +553,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'F.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -634,7 +634,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'A.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -711,7 +711,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'B.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -788,7 +788,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'C.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -875,7 +875,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'E.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -962,7 +962,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'H.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1043,7 +1043,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * '1.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1147,7 +1147,7 @@ class Parser implements ILSurveyParser
      * This question types allows survey administrators to a create large arrays with numbered dropdown boxes
      * with a set of subquestions on the 'y-axis', and another set of subquestions on the 'x-axis'.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1241,7 +1241,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'Semicolon.json' file inside 'examples/questions/Array' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1326,7 +1326,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'D.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1373,7 +1373,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'Pipe.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1436,7 +1436,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'G.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1508,7 +1508,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'I.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1582,7 +1582,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'N.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1629,7 +1629,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'K.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1687,7 +1687,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'R.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1765,7 +1765,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'X.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1804,7 +1804,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'Y.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1875,7 +1875,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'Star.json' file inside 'examples/questions/Mask' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -1932,7 +1932,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'M.json' file inside 'examples/questions/Multiple choice' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2033,7 +2033,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'P.json' file inside 'examples/questions/Multiple choice' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2162,7 +2162,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * '5.json' file inside 'examples/questions/Single choice' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2227,7 +2227,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'Dropdown.json' file inside 'examples/questions/Single choice' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2324,7 +2324,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'L.json' file inside 'examples/questions/Single choice' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2422,7 +2422,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'O.json' file inside 'examples/questions/Single choice' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2517,7 +2517,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'S.json' file inside 'examples/questions/Text' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2562,7 +2562,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'T.json' file inside 'examples/questions/Text' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2607,7 +2607,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'U.json' file inside 'examples/questions/Text' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2658,7 +2658,7 @@ class Parser implements ILSurveyParser
      * To see an output example for this type of questions you can see
      * 'Q.json' file inside 'examples/questions/Text' folder.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2742,7 +2742,7 @@ class Parser implements ILSurveyParser
     /**
      * This function parses the unknown type questions.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2781,7 +2781,7 @@ class Parser implements ILSurveyParser
      * This function moves to the end the object identified by the key '_X_'.
      * The identified object is located inside the 'answers' object.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2802,7 +2802,7 @@ class Parser implements ILSurveyParser
     /**
      * Set the response rate for each answer.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2828,7 +2828,7 @@ class Parser implements ILSurveyParser
     /**
      * Discard all the answers whose cardinality is less than the cutoff.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2863,7 +2863,7 @@ class Parser implements ILSurveyParser
     /**
      * Check whether a valid array of IDs has been passed.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2896,7 +2896,7 @@ class Parser implements ILSurveyParser
      * according to LimeSurvey 'Token.php' class.
      * (https://github.com/LimeSurvey/LimeSurvey/blob/master/application/models/Token.php#L257)
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2926,7 +2926,7 @@ class Parser implements ILSurveyParser
     /**
      * Check whether a valid date has been passed and parse it.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2950,7 +2950,7 @@ class Parser implements ILSurveyParser
     /**
      * Get all data about all questions.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -2978,7 +2978,7 @@ class Parser implements ILSurveyParser
     /**
      * Get all sub-questions about a specific question.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3005,7 +3005,7 @@ class Parser implements ILSurveyParser
     /**
      * Get all responses in a specific survey column; this function is useful to parse free text questions.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3030,7 +3030,7 @@ class Parser implements ILSurveyParser
     /**
      * Get the count of all responses in a specific survey column
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3061,7 +3061,7 @@ class Parser implements ILSurveyParser
      *  - numbers_only,
      *  - hidden
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3114,7 +3114,7 @@ class Parser implements ILSurveyParser
      * Get the codes and the questions texts for a specific sub-question.
      * This function is useful to parse the ':' and the ';' questions types.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3142,7 +3142,7 @@ class Parser implements ILSurveyParser
      * Get the response count in survey column {SGQA}.
      * This function is useful to parse multiple choice questions.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3167,7 +3167,7 @@ class Parser implements ILSurveyParser
     /**
      * Get the codes and the answers texts for a specific sub-question.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3196,7 +3196,7 @@ class Parser implements ILSurveyParser
      * Get data about uploaded files.
      * This function is useful to parse the '|' questions type.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3222,7 +3222,7 @@ class Parser implements ILSurveyParser
     /**
      * Get all the active languages for the current survey.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3244,7 +3244,7 @@ class Parser implements ILSurveyParser
     /**
      * Get default language for the current survey.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3266,7 +3266,7 @@ class Parser implements ILSurveyParser
     /**
      * Check whether the current survey stores the response tokens.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3291,7 +3291,7 @@ class Parser implements ILSurveyParser
     /**
      * Check whether the current survey stores the response datestamps.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3316,7 +3316,7 @@ class Parser implements ILSurveyParser
     /**
      * Get the response IDs using tokens.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3342,7 +3342,7 @@ class Parser implements ILSurveyParser
     /**
      * Get the response IDs using dates.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3367,7 +3367,7 @@ class Parser implements ILSurveyParser
     /**
      * Check whether a valid survey id has been passed and whether the survey is active or not.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3396,7 +3396,7 @@ class Parser implements ILSurveyParser
     /**
      * Check whether a valid language for current survey has been passed.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -3428,7 +3428,7 @@ class Parser implements ILSurveyParser
      * All the questions codes must comply the SGQA syntax,
      * that is '^\d{5,6}X\d+[A-Za-z0-9]{0,20}[#_]?[A-Za-z0-9]*$'
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal

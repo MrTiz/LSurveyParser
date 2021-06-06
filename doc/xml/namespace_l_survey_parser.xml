@@ -10,31 +10,31 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>@Copyright (c) 2020 Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink>.</para>
+<para>@Copyright (c) 2020 Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink>.</para>
 <para>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para>
 <para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para>
 <para>You should have received a copy of the GNU General Public License along with this program. if not, see <ulink url="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</ulink>.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="version"><para>1.0</para>
 </simplesect>
 Class <ref refid="class_l_survey_parser_1_1_database" kindref="compound">Database</ref></para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
 Class <ref refid="class_l_survey_parser_1_1_l_survey_parser_exception" kindref="compound">LSurveyParserException</ref></para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
 Class <ref refid="class_l_survey_parser_1_1_survey_exception" kindref="compound">SurveyException</ref></para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
 Interface <ref refid="interface_l_survey_parser_1_1_i_l_survey_parser" kindref="compound">ILSurveyParser</ref></para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>

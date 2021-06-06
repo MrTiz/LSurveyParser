@@ -1,6 +1,6 @@
 <?php
 /**
- * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz9>.
+ * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz>.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. if not, see <https://www.gnu.org/licenses/>.
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @version 1.0
  */
 
@@ -27,7 +27,7 @@ use Exception;
  * Class LSurveyParserException
  * @package LSurveyParser
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @since   1.0
  */
 
@@ -41,7 +41,7 @@ abstract class LSurveyParserException extends Exception
     /**
      * LSurveyParserException constructor.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param null|string $message  Error message

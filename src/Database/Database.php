@@ -1,6 +1,6 @@
 <?php
 /**
- * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz9>.
+ * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz>.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. if not, see <https://www.gnu.org/licenses/>.
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @version 1.0
  */
 
@@ -28,7 +28,7 @@ use PDOException;
  * Class Database
  * @package LSurveyParser
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @since   1.0
  */
 
@@ -43,7 +43,7 @@ class Database
     /**
      * Database constructor.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -73,7 +73,7 @@ class Database
     /**
      * Singleton
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @return Database|null
@@ -94,7 +94,7 @@ class Database
     /**
      * Check whether table prefix is correct for the selected database
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @internal
@@ -122,7 +122,7 @@ class Database
     /**
      * Executes an SQL statement and fetch the result set.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @param string $sql          SQL query to execute

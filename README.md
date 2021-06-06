@@ -287,7 +287,7 @@ To include this parser in your PHP project, please follow the instructions below
 
 ```bash
 cd <YOUR_PROJECT_DIRECTORY>
-git clone https://github.com/MrTiz9/LSurveyParser.git
+git clone https://github.com/MrTiz/LSurveyParser.git
 ```
 
 Now you have to setup the `.php` configuration file in the `config` folder:
@@ -400,7 +400,7 @@ Any contributions you can provide are **greatly appreciated**.
 
 ## Authors
 
-- **[Tiziano Marra](https://github.com/MrTiz9)**
+- **[Tiziano Marra](https://github.com/MrTiz)**
 
 ## Disclaimer
 [LimeSurvey](https://www.limesurvey.org/) is not associated with, nor it does not endorse nor sponsor this parser. 
@@ -411,4 +411,4 @@ This is just an attempt to have a parser that parses the surveys in more efficie
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This project is licensed under the GNU General Public License v3.0 - see the 
-[LICENSE](https://github.com/MrTiz9/LSurveyParser/blob/master/LICENSE) file for details.
+[LICENSE](https://github.com/MrTiz/LSurveyParser/blob/master/LICENSE) file for details.

@@ -52,7 +52,7 @@
         </briefdescription>
         <detaileddescription>
 <para><ref refid="class_l_survey_parser_1_1_l_survey_parser_exception" kindref="compound">LSurveyParserException</ref> constructor.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>

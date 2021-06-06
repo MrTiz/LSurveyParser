@@ -1,6 +1,6 @@
 <?php
 /**
- * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz9>.
+ * @Copyright (c) 2020 Tiziano Marra <https://github.com/MrTiz>.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. if not, see <https://www.gnu.org/licenses/>.
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @version 1.0
  */
 
@@ -32,7 +32,7 @@ require PATH . '/src/ILSurveyParser.php';
  * Class ParserTest
  * @package LSurveyParser
  *
- * @author  Tiziano Marra <https://github.com/MrTiz9>
+ * @author  Tiziano Marra <https://github.com/MrTiz>
  * @since   1.0
  */
 
@@ -62,7 +62,7 @@ class ParserTestFailure extends TestCase
      * Test 'getOnlyQuestions' function.
      * The test is supposed to fail.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @throws SurveyException
@@ -82,7 +82,7 @@ class ParserTestFailure extends TestCase
      * Test 'parseQuestionsByIDs' function.
      * The test is supposed to fail.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @throws SurveyException
@@ -102,7 +102,7 @@ class ParserTestFailure extends TestCase
      * Test 'parseQuestionsByTokens' function.
      * The test is supposed to fail.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @throws SurveyException
@@ -122,7 +122,7 @@ class ParserTestFailure extends TestCase
      * Test 'parseQuestionsByDates' function.
      * The test is supposed to fail.
      *
-     * @author  Tiziano Marra <https://github.com/MrTiz9>
+     * @author  Tiziano Marra <https://github.com/MrTiz>
      * @since   1.0
      *
      * @throws SurveyException

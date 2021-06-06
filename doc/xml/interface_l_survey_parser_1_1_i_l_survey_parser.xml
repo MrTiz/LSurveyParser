@@ -29,7 +29,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the questions only, excluding the answers.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -115,7 +115,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the survey responses using the IDs.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -210,7 +210,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the survey responses using the tokens.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -308,7 +308,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the survey responses using the dates.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -398,7 +398,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Set the cutoff.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -432,7 +432,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Set column name that should be used to get response IDs using dates.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -466,7 +466,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Strip the HTML tags from the questions and answers texts.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>

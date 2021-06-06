@@ -44,7 +44,7 @@
         </briefdescription>
         <detaileddescription>
 <para><ref refid="class_l_survey_parser_1_1_database" kindref="compound">Database</ref> constructor.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -69,7 +69,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether table prefix is correct for the selected database</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -90,7 +90,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Singleton</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -133,7 +133,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Executes an SQL statement and fetch the result set.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>

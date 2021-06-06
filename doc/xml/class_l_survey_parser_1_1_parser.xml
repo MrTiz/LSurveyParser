@@ -229,7 +229,7 @@
         </briefdescription>
         <detaileddescription>
 <para><ref refid="class_l_survey_parser_1_1_parser" kindref="compound">Parser</ref> constructor.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -273,7 +273,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the questions only, excluding the answers.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -359,7 +359,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the survey responses using the IDs.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -454,7 +454,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the survey responses using the tokens.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -552,7 +552,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse the survey responses using the dates.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -642,7 +642,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Set the cutoff.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -676,7 +676,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Set column name that should be used to get response IDs using dates.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -710,7 +710,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Strip the HTML tags from the questions and answers texts.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0</para>
 </simplesect>
@@ -741,7 +741,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Parse all types of known questions.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -777,7 +777,7 @@
 <para>The most flexible array types are Array, Array (Text) and Array (Numbers)&apos;. However, LimeSurvey also supports a number of array types which have predefined answer options (e.g., Array 5 point choice). This function parses the &apos;F&apos; type questions aka &apos;Array&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array">https://manual.limesurvey.org/Question_types#Array</ulink>) An array allows you to create a set of subquestions. Each of them uses the same set of answer options.</para>
 <para>To see an output example for this type of questions you can see &apos;F.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -810,7 +810,7 @@
 <para>This function parses the &apos;A&apos; type questions aka &apos;Array (5 point choice)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.285_point_choice.29">https://manual.limesurvey.org/Question_types#Array_.285_point_choice.29</ulink>) It is an array type that is prefilled with answer choices. An 1 to 5 scale is used.</para>
 <para>To see an output example for this type of questions you can see &apos;A.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -843,7 +843,7 @@
 <para>This function parses the &apos;B&apos; type questions aka &apos;Array (10 point choice)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.2810_point_choice.29">https://manual.limesurvey.org/Question_types#Array_.2810_point_choice.29</ulink>) It is an array question type that is prefilled with answer choices on a 1 to 10 scale.</para>
 <para>To see an output example for this type of questions you can see &apos;B.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -876,7 +876,7 @@
 <para>This function parses the &apos;C&apos; type questions aka &apos;Array (Yes/No/Uncertain)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Yes.2FNo.2FUncertain.29">https://manual.limesurvey.org/Question_types#Array_.28Yes.2FNo.2FUncertain.29</ulink>) It is an array question type that is prefilled with the following answer choices: &apos;Yes&apos;, &apos;No&apos;, and &apos;Uncertain&apos;.</para>
 <para>To see an output example for this type of questions you can see &apos;C.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -909,7 +909,7 @@
 <para>This function parses the &apos;E&apos; type questions aka &apos;Array (Increase/Same/Decrease)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Increase.2FSame.2FDecrease.29">https://manual.limesurvey.org/Question_types#Array_.28Increase.2FSame.2FDecrease.29</ulink>) It is an array type that is prefilled with the following answer choices: &apos;Increase&apos;, &apos;Same&apos;, and &apos;Decrease&apos;.</para>
 <para>To see an output example for this type of questions you can see &apos;E.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -942,7 +942,7 @@
 <para>This function parses the &apos;H&apos; type questions aka &apos;Array by column&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_by_column">https://manual.limesurvey.org/Question_types#Array_by_column</ulink>) This question type is the same as an array, except the subquestion and answer axes are swapped.</para>
 <para>To see an output example for this type of questions you can see &apos;H.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -975,7 +975,7 @@
 <para>This function parses the &apos;1&apos; type questions aka &apos;Array dual scale&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_dual_scale">https://manual.limesurvey.org/Question_types#Array_dual_scale</ulink>) This question type provides two scales of answer options for each subquestion.</para>
 <para>To see an output example for this type of questions you can see &apos;1.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1008,7 +1008,7 @@
 <para>This function parses the &apos;:&apos; type questions aka &apos;Array (Numbers)&apos;.</para>
 <para>To see an output example for this type of questions you can see &apos;Colon.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Numbers.29">https://manual.limesurvey.org/Question_types#Array_.28Numbers.29</ulink>) This question types allows survey administrators to a create large arrays with numbered dropdown boxes with a set of subquestions on the &apos;y-axis&apos;, and another set of subquestions on the &apos;x-axis&apos;.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1041,7 +1041,7 @@
 <para>This function parses the &apos;;&apos; type questions aka &apos;Array (Texts)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Array_.28Texts.29">https://manual.limesurvey.org/Question_types#Array_.28Texts.29</ulink>) The Array (Text) question type allows for an array of text boxes with a set of subquestions as the &apos;y-axis&apos;, and another set of subquestions as the &apos;x-axis&apos;.</para>
 <para>To see an output example for this type of questions you can see &apos;Semicolon.json&apos; file inside &apos;examples/questions/Array&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1075,7 +1075,7 @@
 <para>Due to a lack of better word we define all questions where the input of answers is predefined as &apos;mask questions&apos;. This function parses the &apos;D&apos; type questions aka &apos;Date/Time&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Date">https://manual.limesurvey.org/Question_types#Date</ulink>) This question type can be used to ask for a certain date, time or a combination of both date and time. The values can be selected by the participants either from a popup calendar or from dropdown boxes.</para>
 <para>To see an output example for this type of questions you can see &apos;D.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1109,7 +1109,7 @@
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#File_upload">https://manual.limesurvey.org/Question_types#File_upload</ulink>) The file upload question type can be used to collect file(s) from a user in response to a question.</para>
 <para>NOTE: The &apos;SGQ_filecount&apos; column is used as a counter for the uploaded files.</para>
 <para>To see an output example for this type of questions you can see &apos;Pipe.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1142,7 +1142,7 @@
 <para>This function parses the &apos;G&apos; type questions aka &apos;Gender&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Gender">https://manual.limesurvey.org/Question_types#Gender</ulink>) This question type collects gender information (&apos;Male&apos; or &apos;Female&apos;) from the respondents.</para>
 <para>To see an output example for this type of questions you can see &apos;G.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1175,7 +1175,7 @@
 <para>This function parses the &apos;I&apos; type questions aka &apos;Language switch&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Language_switch">https://manual.limesurvey.org/Question_types#Language_switch</ulink>) This question type allows the user to change the language of the survey. Users can choose from a dropdown list, the language in which they wish to have the survey questions displayed. The dropdown list includes the base language (which is selected when the survey is created for the first time) and the additional ones.</para>
 <para>To see an output example for this type of questions you can see &apos;I.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1208,7 +1208,7 @@
 <para>This function parses the &apos;N&apos; type questions aka &apos;Numerical input&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Numerical_input">https://manual.limesurvey.org/Question_types#Numerical_input</ulink>) This question types asks the survey participant to enter a single number.</para>
 <para>To see an output example for this type of questions you can see &apos;N.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1241,7 +1241,7 @@
 <para>This function parses the &apos;K&apos; type questions aka &apos;Multiple numerical input&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_numerical_input">https://manual.limesurvey.org/Question_types#Multiple_numerical_input</ulink>) This question type is a variation of the &apos;Numerical input&apos; question type. It allows multiple text boxes to be created, each of them allowing the survey respondents to enter only numbers. Each text box corresponds to an subquestion, the subquestion text being the label for the input.</para>
 <para>To see an output example for this type of questions you can see &apos;K.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1274,7 +1274,7 @@
 <para>This function parses the &apos;R&apos; type questions aka &apos;Ranking&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Ranking">https://manual.limesurvey.org/Question_types#Ranking</ulink>) This question type allows you to present your survey participants a list of possible answers/options, which they may then rank according to their preferences.</para>
 <para>To see an output example for this type of questions you can see &apos;R.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1307,7 +1307,7 @@
 <para>This function parses the &apos;X&apos; type questions aka &apos;Text display&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Text_display">https://manual.limesurvey.org/Question_types#Text_display</ulink>) This question type does not collect any input from the respondent. It just simply displays text. It can be used to provide further instructions or a design break in the survey.</para>
 <para>To see an output example for this type of questions you can see &apos;X.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1340,7 +1340,7 @@
 <para>This function parses the &apos;Y&apos; type questions aka &apos;Yes/No&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Yes.2FNo">https://manual.limesurvey.org/Question_types#Yes.2FNo</ulink>) Survey administrators can collect &apos;Yes&apos; or &apos;No&apos; responses from the respondents with the help of this question type.</para>
 <para>To see an output example for this type of questions you can see &apos;Y.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1373,7 +1373,7 @@
 <para>This function parses the &apos;*&apos; type questions aka &apos;Equation&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Equation">https://manual.limesurvey.org/Question_types#Equation</ulink>) This question type lets the author create an equation (e.g., a calculation or tailored report) and save it in a database variable. Equations can use any syntax supported by Expression Manager (<ulink url="https://manual.limesurvey.org/Expression_Manager">https://manual.limesurvey.org/Expression_Manager</ulink>).</para>
 <para>To see an output example for this type of questions you can see &apos;Star.json&apos; file inside &apos;examples/questions/Mask&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1408,7 +1408,7 @@
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_choice">https://manual.limesurvey.org/Question_types#Multiple_choice</ulink>) This question type can collect input of multiple selections through checkboxes.</para>
 <para>NOTE: LimeSurvey by default creates as many columns as there are sub-questions. This function &apos;compresses&apos; all sub-questions into one question.</para>
 <para>To see an output example for this type of questions you can see &apos;M.json&apos; file inside &apos;examples/questions/Multiple choice&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1442,7 +1442,7 @@
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_choice_with_comments">https://manual.limesurvey.org/Question_types#Multiple_choice_with_comments</ulink>) This question type can collect input of multiple selections through checkboxes, while allowing the user to provide additional comments.</para>
 <para>NOTE: LimeSurvey by default creates as many columns as there are sub-questions. This function &apos;compresses&apos; all sub-questions into one question, for columns that don&apos;t contain comments (&apos;{SGQA}comment&apos;).</para>
 <para>To see an output example for this type of questions you can see &apos;P.json&apos; file inside &apos;examples/questions/Multiple choice&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1476,7 +1476,7 @@
 <para>Single choice questions are those where the participant can only pick a single predefined answer option. This function parses the &apos;5&apos; type questions aka &apos;5 point choice&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#5_point_choice">https://manual.limesurvey.org/Question_types#5_point_choice</ulink>) This question shows a horizontal 1 to 5 scale from where the survey participants can select a single answer option.</para>
 <para>To see an output example for this type of questions you can see &apos;5.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1509,7 +1509,7 @@
 <para>This function parses the &apos;!&apos; type questions aka &apos;List (dropdown)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#List_.28Dropdown.29">https://manual.limesurvey.org/Question_types#List_.28Dropdown.29</ulink>) This question type collects input from a dropdown list menu.</para>
 <para>To see an output example for this type of questions you can see &apos;Dropdown.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1542,7 +1542,7 @@
 <para>This function parses the &apos;L&apos; type questions aka &apos;List (radio)&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#List_.28Radio.29">https://manual.limesurvey.org/Question_types#List_.28Radio.29</ulink>) This question type collects input from a list of radio buttons.</para>
 <para>To see an output example for this type of questions you can see &apos;L.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1575,7 +1575,7 @@
 <para>This function parses the &apos;O&apos; type questions aka &apos;List with comment&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#List_with_comment">https://manual.limesurvey.org/Question_types#List_with_comment</ulink>) This question type displays a list of radio buttons, while allowing the participants to provide a additional comment with their submission.</para>
 <para>To see an output example for this type of questions you can see &apos;O.json&apos; file inside &apos;examples/questions/Single choice&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1608,7 +1608,7 @@
 <para>TEXT QUESTIONS This function parses the &apos;S&apos; type questions aka &apos;Short free text&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Short_free_text">https://manual.limesurvey.org/Question_types#Short_free_text</ulink>) This question type collects a single line of text input.</para>
 <para>To see an output example for this type of questions you can see &apos;S.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1641,7 +1641,7 @@
 <para>This function parses the &apos;T&apos; type questions aka &apos;Long free text&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Long_free_text">https://manual.limesurvey.org/Question_types#Long_free_text</ulink>) This question type collects multiple lines of text input.</para>
 <para>To see an output example for this type of questions you can see &apos;T.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1674,7 +1674,7 @@
 <para>This function parses the &apos;U&apos; type questions aka &apos;Huge free text&apos;.</para>
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Huge_free_text">https://manual.limesurvey.org/Question_types#Huge_free_text</ulink>) This question type collect multiple lines of text input, allowing more text to be typed in.</para>
 <para>To see an output example for this type of questions you can see &apos;U.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1708,7 +1708,7 @@
 <para>(from <ulink url="https://manual.limesurvey.org/Question_types#Multiple_short_text">https://manual.limesurvey.org/Question_types#Multiple_short_text</ulink>) This question type is a variation on the &apos;Short Text&apos; question type which allows more than one text entry per question. The user first defines the question and can then add additional text boxes by adding &apos;Answers&apos;. Each answer becomes the label of the new text box.</para>
 <para>NOTE: For this type of question, an additional object containing the count of the answers to the sub-questions will be added.</para>
 <para>To see an output example for this type of questions you can see &apos;Q.json&apos; file inside &apos;examples/questions/Text&apos; folder.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1739,7 +1739,7 @@
         </briefdescription>
         <detaileddescription>
 <para>This function parses the unknown type questions.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1764,7 +1764,7 @@
         </briefdescription>
         <detaileddescription>
 <para>This function moves to the end the object identified by the key &apos;<emphasis>X</emphasis>&apos;. The identified object is located inside the &apos;answers&apos; object.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1789,7 +1789,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Set the response rate for each answer.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1814,7 +1814,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Discard all the answers whose cardinality is less than the cutoff.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1836,7 +1836,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether a valid array of IDs has been passed.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1858,7 +1858,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether a valid array of tokens has been passed. All the tokens must contains only [0-9a-zA-z_~] characters which are all transparent in raw URL encoding, according to LimeSurvey &apos;Token.php&apos; class. (<ulink url="https://github.com/LimeSurvey/LimeSurvey/blob/master/application/models/Token.php#L257">https://github.com/LimeSurvey/LimeSurvey/blob/master/application/models/Token.php#L257</ulink>)</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1880,7 +1880,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether a valid date has been passed and parse it.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1899,7 +1899,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get all data about all questions.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1921,7 +1921,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get all sub-questions about a specific question.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1943,7 +1943,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get all responses in a specific survey column; this function is useful to parse free text questions.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1965,7 +1965,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get the count of all responses in a specific survey column</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -1993,7 +1993,7 @@
 </listitem><listitem><para>hidden</para>
 </listitem></itemizedlist>
 </para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2015,7 +2015,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get the codes and the questions texts for a specific sub-question. This function is useful to parse the &apos;:&apos; and the &apos;;&apos; questions types.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2037,7 +2037,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get the response count in survey column {SGQA}. This function is useful to parse multiple choice questions.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2063,7 +2063,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get the codes and the answers texts for a specific sub-question.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2085,7 +2085,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get data about uploaded files. This function is useful to parse the &apos;|&apos; questions type.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2104,7 +2104,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get all the active languages for the current survey.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2123,7 +2123,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get default language for the current survey.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2145,7 +2145,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether the current survey stores the response tokens.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2167,7 +2167,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether the current survey stores the response datestamps.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2189,7 +2189,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get the response IDs using tokens.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2214,7 +2214,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Get the response IDs using dates.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2236,7 +2236,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether a valid survey id has been passed and whether the survey is active or not.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2261,7 +2261,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether a valid language for current survey has been passed.</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
@@ -2286,7 +2286,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Check whether a valid questions list has been passed. All the questions codes must comply the SGQA syntax, that is &apos;^\d{5,6}X\d+[A-Za-z0-9]{0,20}[#_]?[A-Za-z0-9]*$&apos;</para>
-<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz9">https://github.com/MrTiz9</ulink> </para>
+<para><simplesect kind="author"><para>Tiziano Marra <ulink url="https://github.com/MrTiz">https://github.com/MrTiz</ulink> </para>
 </simplesect>
 <simplesect kind="since"><para>1.0 </para>
 </simplesect>
